@@ -1,86 +1,107 @@
-/**#4db6ac
-**/
-
 .container {
-    background-color: #4db6ac;
-    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .top {
-    padding-bottom: 70px;
+    
+}
+.navbar {
+    font-size: 3em;
+    z-index: 999;
+    position: fixed;
+    background-color: #2D3438;
+    height: 100px;
+    width: 100%;
+    box-shadow:0px 0px 50px 20px black;
 }
 .left {
     float: left;
-    font-size: 3.5em;
-    font-family: 'Indie Flower', cursive;
+}
+.left img {
+    border-radius: 50%;
 }
 .right {
     float: right;
-    margin-left: 50px;
-    font-size: 2.5em;
-    font-family: 'Indie Flower', cursive;
+    margin-left: 100px;
 }
-.jumbotron1 {
-    background-image: url(../pic/food-q-c-1920-1200-10.jpg);
+.jumbotron {
+    background-image: url(../lorempixel.jpg);
     width: 100%;
     height: 50%;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: table;
 }
-.one, .two, .three {
-    width: calc(100%/3);
-    float: left;
+.text {
+    font-family: 'Roboto:700i', sans-serif;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+    text-align: center;
+    font-size: 7em;
 }
-.four, .five, .six{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    border-color: rgba(255,255, 255, 1);
+.innerbox {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-width: 5px;
     border-style: solid;
-    border-width: 3px; 
+    border-color: black;
+    padding: 10px;
+    box-shadow:0px 0px 50px 0px black;
+    display: block;
+    background-color: #2D3438;
+    color: white;
 }
-.about {
+.download {
     width: 100%;
-    height: inherit;
-    padding-bottom: 200px;
-    background-color: #4db6ac;
+    border-style: double;
+    border-width: 5px;
+    border-color: #FF9800;
 }
-.one h1, .two h1, .three h1 {
-    text-align: center;
-    font-size: 3em;
-    font-family: 'Indie Flower', cursive;
-}
-.one p, .two p, .three p {
-    font-family: 'Slabo 27px', serif;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 2%;
-}
-.jumbotron2 {
-    background-image: url(../pic/nightlife-q-c-1920-1200-4.jpg);
+.middle {
     width: 100%;
-    height: 50%;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.contact h1 {
-    text-align: center;
-    font-size: 3em;
-    font-family: 'Indie Flower', cursive;
     margin-top: 20px;
+    height: 83%;
+    margin-bottom: 50px;
 }
-.contact p {
-    font-family: 'Slabo 27px', serif;
-    w
+.feed {
+    height: 100%;
+    width: 44%;
+    margin-right: 5%;
+    float: left;
+    border-style: double;
+    border-width: 5px;
+    border-color: #FF9800;
 }
-.contact {
+.pic {
+    width: 39%;
+    margin-left: 5%;
+    float: right;
+    margin-right: 5%;
+}
+.topleft img, .bottomleft img {
+    width: 100%;
+    height: 45%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #FF9800;
+    border-radius: 50%;
+}
+.intranet {
+    width: 95%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #FF9800;
+    margin-bottom: 30px;
+    padding: 2%;
+}
+.goal {
+    width: 95%;
+    border-style: double;
+    border-width: 5px;
+    border-color: #FF9800;
+    padding: 2%;
+}
+h1 {
+    font-family: 'Roboto:900i', sans-serif !important;
+    font-size: 2em !important;
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
 }
-
-
