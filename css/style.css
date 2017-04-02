@@ -2,45 +2,54 @@
     font-family: 'Roboto', sans-serif;
     background-color: #4E5C63;
 }
-.top {
-    
-}
+
+.top {}
+
 .navbar {
     font-size: 3em;
     z-index: 999;
     position: fixed;
     background-color: #2D3438;
-    height: 120px;
+    height: 70px;
     width: 100%;
-    box-shadow:0px 0px 50px 20px black;
+    box-shadow: 0px 0px 50px 20px black;
 }
-.navbar ul {
-    margin-top: 10px;
-}
+
+.navbar ul {}
+
 .left {
     float: left;
 }
+
 .left img {
     border-radius: 50%;
-    margin-left: 100px; 
+    margin-left: 100px;
 }
+
+.ul-right {
+    margin-right: 100px;
+}
+
 .right {
     float: right;
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
     text-align: center;
     color: white;
     margin-top: 0em;
+    height: 70px;
 }
+
 .right a {
     text-decoration: none;
     color: white;
+    font-size: 0.35em;
 }
+
 .right:hover {
     background: rgba(255, 255, 255, 0.4);
 }
+
 .jumbotron {
     background-image: url(../lorempixel.jpg);
     width: 100%;
@@ -48,6 +57,7 @@
     display: table;
     z-index: 100;
 }
+
 .text {
     font-family: 'Roboto:700i', sans-serif;
     vertical-align: middle;
@@ -56,54 +66,80 @@
     text-align: center;
     font-size: 7em;
 }
+
 .innerbox {
     width: 90%;
     margin: 0 auto;
     margin-top: -70px;
     padding: 10px;
-    box-shadow:0px 0px 50px 0px black;
+    box-shadow: 0px 0px 50px 0px black;
     display: block;
     background-color: #2D3438;
     color: white;
     z-index: 150;
 }
+
 .inner-innerbox {
     width: 98%;
     margin: 0 auto;
 }
+
 small {
     color: #FF4336;
     font-size: 0.3em;
-    
 }
+
 .download {
     width: 100%;
-    height: 250px;
+    height: 100px;
     display: inline;
 }
+
 .download-text {
     font-size: 1em;
     float: left;
+    text-align: justify;
+    width: 50%;
+    right: 10px;
 }
+
 .buttons {
     float: right;
-    height: 150px;
+    height: inherit;
     width: 50%;
 }
-.button1 {
-    border-radius: 5%;
-    color: #4CAF50;
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
 }
-.button2 {
-    border-radius: 5%;
-    color: #FF4336;
+
+.button1 button {
+    background-color: #4CAF50;
+    width: 50%;
+    height: 100%;
+    text-decoration: none;
+    border: none;
+    float: left;
 }
+
+.button2 button {
+    background-color: #FF4336;
+    width: 50%;
+    height: 100%;
+    text-decoration: none;
+    border: none;
+    float: left;
+}
+
 .middle {
     width: 100%;
     margin-top: 20px;
     height: 83%;
     margin-bottom: 50px;
 }
+
 .feed {
     height: 100%;
     width: 44%;
@@ -113,20 +149,27 @@ small {
     border-width: 5px;
     border-color: #FF9800;
 }
+
 .pic {
     width: 39%;
     margin-left: 5%;
     float: right;
     margin-right: 5%;
 }
-.topleft img, .bottomleft img {
+
+.topleft img,
+.bottomleft img {
     width: 100%;
-    height: 45%;
     border-style: double;
     border-width: 5px;
     border-color: #FF9800;
-    border-radius: 50%;
 }
+
+.update-feed {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .intranet {
     width: 95%;
     border-style: double;
@@ -135,6 +178,7 @@ small {
     margin-bottom: 30px;
     padding: 2%;
 }
+
 .goal {
     width: 95%;
     border-style: double;
@@ -142,6 +186,7 @@ small {
     border-color: #FF9800;
     padding: 2%;
 }
+
 h1 {
     font-family: 'Roboto:900i', sans-serif !important;
     font-size: 2em !important;
