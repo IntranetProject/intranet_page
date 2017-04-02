@@ -145,9 +145,14 @@ button a {
     width: 44%;
     margin-right: 5%;
     float: left;
-    border-style: double;
-    border-width: 5px;
-    border-color: #FF9800;
+    border: 1px solid;
+    border-color: #1d2224;
+}
+
+.feed h1 {
+    font-size: 2em;
+    padding: 10px;
+    margin: 0;
 }
 
 .pic {
@@ -155,14 +160,14 @@ button a {
     margin-left: 5%;
     float: right;
     margin-right: 5%;
+    margin-bottom: 50px;
 }
 
 .topleft img,
 .bottomleft img {
     width: 100%;
-    border-style: double;
-    border-width: 5px;
-    border-color: #FF9800;
+    border: 1px solid;
+    border-color: #1D2224;
 }
 
 .update-feed {
@@ -172,18 +177,16 @@ button a {
 
 .intranet {
     width: 95%;
-    border-style: double;
-    border-width: 5px;
-    border-color: #FF9800;
+    border: 1px solid;
+    border-color: #1d2224;
     margin-bottom: 30px;
     padding: 2%;
 }
 
 .goal {
     width: 95%;
-    border-style: double;
-    border-width: 5px;
-    border-color: #FF9800;
+    border: 1px solid;
+    border-color: #1d2224;
     padding: 2%;
 }
 
@@ -192,36 +195,51 @@ h1 {
     font-size: 2em !important;
     text-align: center;
 }
+
 .image {
     float: left;
     width: 25%;
 }
-.commit-image{
+
+.commit-image {
     width: 90%;
     border-radius: 50%;
 }
+
 .content {
     float: right;
     width: 75%;
 }
+
 .commit-name {
     font-size: 2em !important;
-    border-style:groove;
-    border-width: medium;
     float: left;
 }
+
 .commit-details {
     width: 50%;
-    font-size: 1.5em !important;
-    float: right;
+    font-size: 1em !important;
+    float: left;
+    margin-left: 15px;
 }
+
+.commit-details a {
+    color: white;
+    text-decoration: underline;
+}
+
 .commit {
     display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
 .message {
     margin-top: 60px
 }
+
 hr {
-    width: 90%;
-    border-width: 3px;
+    width: 100%;
+    border: 1px solid;
+    border-color: #1d2224;
 }

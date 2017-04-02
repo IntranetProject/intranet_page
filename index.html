@@ -55,7 +55,7 @@
                             </div>
                             <div class="content">
                                 <p class="commit-name"></p>
-                                <p class="commit-details">Hi</p>
+                                <p class="commit-details"><a target="_blank" class="commit-details-link" href="">Details</a></p>
                                 <div class="message">
                                     <p>Update Text:</p><br>
                                     <p class="commit-message"></p>
@@ -65,14 +65,16 @@
                         <hr>
                     </div>
                     <div class="pic">
+                        <h1 style="padding: 20px;">Images</h1>
                         <div class="topleft">
-                            <a href="pic/login.png"><img id="img1" src="pic/login.png" /></a>
+                            <a target="_blank" href="pic/login.png"><img id="img1" src="pic/login.png" /></a>
                         </div>
                         <div class="bottomleft">
-                            <a href="pic/settings.png"><img src="pic/settings.png"/></a>
+                            <a target="_blank" href="pic/settings.png"><img src="pic/settings.png" /></a>
                         </div>
                     </div>
                 </div>
+                <div style="clear: both;"></div>
                 <div class="intranet">
                     <h1>What is an intranet?</h1><br><br>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat tortor in turpis sodales, eget elementum nisl lacinia. Nunc mollis lectus nec ligula vehicula, quis malesuada elit vehicula. Donec sodales dignissim felis a mollis. Donec hendrerit sed lectus dapibus finibus. Aenean condimentum erat nibh, sed tincidunt nisi faucibus in. Donec et quam laoreet metus tristique dapibus. Aliquam venenatis facilisis tortor et faucibus. Vivamus sodales, ligula in scelerisque volutpat, ex purus pretium orci, ac posuere magna ex ut orci. Donec ut tellus vitae felis fermentum tincidunt tempor vitae tortor. Cras fringilla metus eu tortor molestie, nec vestibulum massa faucibus. Donec eu justo vestibulum diam porta efficitur. Aliquam nibh justo, porttitor quis purus et, egestas aliquam orci. Curabitur sagittis lacus non imperdiet tristique. Cras tincidunt, elit sit amet dignissim facilisis, libero augue viverra libero, eu imperdiet massa nibh ac purus. Nulla posuere turpis nec iaculis fringilla. Nam ut nulla at neque iaculis tristique. Sed diam dui, dapibus vel metus vitae, bibendum hendrerit urna. Fusce ut leo id lorem convallis consequat. Donec eget tristique tellus, at pretium sapien. Quisque sollicitudin libero in vulputate gravida. Proin velit justo, dapibus vitae erat non, eleifend pulvinar mi. Suspendisse sem nunc, lobortis non semper eget, mattis at ex. Nam condimentum ultrices orci sit amet ultrices. Etiam pulvinar risus justo, non auctor libero facilisis et. Duis mollis mauris erat, vitae sodales nisl fermentum et. Maecenas porta ultricies risus vitae porttitor. Vivamus purus quam, interdum ac dolor sed, vestibulum feugiat elit. Phasellus et euismod nunc, et tincidunt lectus. Donec tristique, arcu porta tempor pretium, turpis turpis ultricies mauris, eget molestie lacus turpis non sapien. Maecenas eu erat ut mi euismod vulputate quis sit amet dui. Phasellus eget placerat lacus, sit amet lobortis dui. Mauris auctor justo sed ex tristique, at vestibulum ligula pellentesque. Donec sit amet dolor pretium, vulputate libero a, posuere nulla. Phasellus ac nisl arcu. Aenean tempor commodo enim eu lobortis. Curabitur consectetur sapien massa, vehicula posuere enim euismod quis. Maecenas ut orci mauris. Mauris pulvinar felis nec risus auctor, vitae dignissim lectus gravida.</p>
@@ -98,10 +100,12 @@
                 };
                 $(".commit-image").attr('src', obj.author.avatar_url);
                 $(".commit-name").append(obj.commit.author.name);
+                $(".commit-details-link").attr('href', obj.html_url);
                 $(".commit-message").append(obj.commit.message + "<br>");
                 i++;
             });
         });
+
     </script>
 </body>
 
