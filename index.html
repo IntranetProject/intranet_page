@@ -48,18 +48,28 @@
                 <div class="middle">
                     <div class="feed">
                         <h1>Update Feed</h1><br><br>
+                        <hr>
                         <div class="commit">
-                            <img class="commit-image" src="">;
-                            <p class="commit-name"></p>
-                            <p class="commit-message"></p>
+                            <div class="image">
+                                <img class="commit-image" src="">
+                            </div>
+                            <div class="content">
+                                <p class="commit-name"></p>
+                                <p class="commit-details">Hi</p>
+                                <div class="message">
+                                    <p>Update Text:</p><br>
+                                    <p class="commit-message"></p>
+                                </div>
+                            </div>
                         </div>
+                        <hr>
                     </div>
                     <div class="pic">
                         <div class="topleft">
-                            <img id="img1" src="pic/login.png" />
+                            <a href="pic/login.png"><img id="img1" src="pic/login.png" /></a>
                         </div>
                         <div class="bottomleft">
-                            <img src="pic/settings.png" />
+                            <a href="pic/settings.png"><img src="pic/settings.png"/></a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +94,7 @@
             var x = 1;
             $.each(data, function(idx, obj) {
                 if (i >= x) {
-                    return false
+                    return false;
                 };
                 $(".commit-image").attr('src', obj.author.avatar_url);
                 $(".commit-name").append(obj.commit.author.name);

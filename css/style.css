@@ -192,3 +192,36 @@ h1 {
     font-size: 2em !important;
     text-align: center;
 }
+.image {
+    float: left;
+    width: 25%;
+}
+.commit-image{
+    width: 90%;
+    border-radius: 50%;
+}
+.content {
+    float: right;
+    width: 75%;
+}
+.commit-name {
+    font-size: 2em !important;
+    border-style:groove;
+    border-width: medium;
+    float: left;
+}
+.commit-details {
+    width: 50%;
+    font-size: 1.5em !important;
+    float: right;
+}
+.commit {
+    display: inline-block;
+}
+.message {
+    margin-top: 60px
+}
+hr {
+    width: 90%;
+    border-width: 3px;
+}
