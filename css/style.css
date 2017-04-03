@@ -94,12 +94,16 @@ small {
     height: 100px;
     display: inline;
 }
-
+.download-text h1 {
+    font-size: 4em !important;
+    font-family: 'Roboto:500i', sans-serif !important;
+}
 .download-text {
     font-size: 1em;
     float: left;
     text-align: justify;
-    width: 50%;
+    width: 45%;
+    padding-right: 10px;
     right: 10px;
 }
 
@@ -107,6 +111,7 @@ small {
     float: right;
     height: inherit;
     width: 50%;
+    padding-top: 30px;
 }
 
 button a {
@@ -117,17 +122,19 @@ button a {
 
 .button1 button {
     background-color: #4CAF50;
-    width: 50%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
     text-decoration: none;
     border: none;
     float: left;
+    margin-right: 20%;
+    margin-left: 15%;
 }
 
 .button2 button {
     background-color: #FF4336;
-    width: 50%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
     text-decoration: none;
     border: none;
     float: left;
@@ -242,4 +249,11 @@ hr {
     width: 100%;
     border: 1px solid;
     border-color: #1d2224;
+}
+.intranet a {
+    text-decoration: none;
+    color: white;
+}
+.intranet a:hover {
+    background: rgba(255, 255, 255, 0.4);
 }
