@@ -97,10 +97,12 @@ small {
     height: 100px;
     display: inline;
 }
+
 .download-text h1 {
     font-size: 4em !important;
     font-family: 'Roboto:500i', sans-serif !important;
 }
+
 .download-text {
     font-size: 1em;
     float: left;
@@ -255,21 +257,31 @@ hr {
     border: 1px solid;
     border-color: #1d2224;
 }
+
 .intranet a {
     text-decoration: none;
     color: white;
 }
+
 .intranet a:hover {
     background: rgba(255, 255, 255, 0.4);
 }
+
 .team {
     width: 100%;
+    margin-top: 0;
 }
-.tobi, .bennet, .moritz {
+
+.tobi,
+.bennet,
+.moritz {
     width: calc(100%/3);
     float: left;
 }
-.tobipic, .bennetpic, .moritzpic{
+
+.tobipic,
+.bennetpic,
+.moritzpic {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -277,16 +289,23 @@ hr {
     border-style: solid;
     border-width: 2px;
 }
-.tobi h1, .bennet h1, .moritz h1 {
+
+.tobi h1,
+.bennet h1,
+.moritz h1 {
     text-align: center;
     font-size: 2em !important;
     margin-bottom: 5px;
 }
-.tobitext, .bennettext, .moritztext {
+
+.tobitext,
+.bennettext,
+.moritztext {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 2%;
 }
+
 .innerteam h1 {
     text-align: center;
     font-size: 2em;
