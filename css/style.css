@@ -198,6 +198,7 @@ button a {
     border: 1px solid;
     border-color: #1d2224;
     padding: 2%;
+    margin-bottom: 30px;
 }
 
 h1 {
@@ -260,4 +261,34 @@ hr {
 }
 .intranet a:hover {
     background: rgba(255, 255, 255, 0.4);
+}
+.team {
+    width: 100%;
+}
+.tobi, .bennet, .moritz {
+    width: calc(100%/3);
+    float: left;
+}
+.tobipic, .bennetpic, .moritzpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+}
+.tobi h1, .bennet h1, .moritz h1 {
+    text-align: center;
+    font-size: 2em !important;
+    margin-bottom: 5px;
+}
+.tobitext, .bennettext, .moritztext {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2%;
+}
+.innerteam h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
