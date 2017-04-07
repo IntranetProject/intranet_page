@@ -308,6 +308,12 @@ hr {
     margin-right: 15px;
     margin-left: 15px;
 }
+.tobitext a,
+.bennettext a,
+.moritztext a {
+    text-decoration: none;
+    color: white;
+}
 .innerteam h1 {
     text-align: center;
     font-size: 2em;
