@@ -271,8 +271,9 @@ hr {
 .team {
     width: 100%;
     margin-top: 0;
-    height: 350px
+    /*height: 350px*/
 }
+
 .tobi,
 .bennet,
 .moritz {
@@ -284,8 +285,7 @@ hr {
 .bennetpic,
 .moritzpic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     border-radius: 50%;
     border-style: solid;
     border-width: 2px;
@@ -308,17 +308,21 @@ hr {
     margin-right: 15px;
     margin-left: 15px;
 }
+
 .tobitext a,
 .bennettext a,
 .moritztext a {
     text-decoration: none;
     color: white;
 }
+
 .innerteam h1 {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
+    height: inherit;
 }
+
 .footer {
     width: 100%;
     font-size: 150%;
@@ -326,6 +330,7 @@ hr {
     height: 40px;
     background-color: #797D80
 }
+
 .git,
 .imp,
 .credit {
@@ -333,23 +338,27 @@ hr {
     float: left;
     text-align: center;
 }
+
 .footer a {
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
 }
+
 .footer a:hover {
     background: rgba(255, 255, 255, 0.4);
 }
+
 .contact {
     width: 100%;
+    margin-top: 50px;
 }
+
 .contact h1 {
     font-size: 2em;
     margin-bottom: 15px;
 }
+
 .innercontact {
-    border: 1px solid;
-    border-color: #1d2224;
     margin-bottom: 30px;
     width: 20%;
     margin-left: 40%;
@@ -358,13 +367,114 @@ hr {
     text-align: center;
     padding-bottom: 5px;
 }
+
 .innercontact a {
     text-decoration: none;
     color: white;
 }
-#team {
-    border: 1px solid;
-    border-color: #1d2224;
-    margin-bottom: 30px;
-    padding-top: 5px;
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .innerbox {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .inner-innerbox {
+        width: 100%;
+    }
+    .tobi,
+    .bennet,
+    .moritz {
+        width: 100%;
+    }
+    .download {
+        display: block;
+        width: 100%;
+    }
+    .download-text {
+        display: block;
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .download .buttons {
+        display: block;
+        width: 100%;
+    }
+    .middle {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .middle .feed {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: left;
+        height: auto;
+    }
+    .middle .pic {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .commits {
+        width: 100%;
+    }
+    .contact {
+        text-align: center !important;
+        margin: 0;
+        padding: 0;
+    }
+    .innercontact {
+        text-align: center !important;
+        margin: 0;
+        padding: 20px;
+    }
+    .footer {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 80px;
+    }
+    .git,
+    .imp,
+    .credit {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .navbar {
+        height: auto;
+        padding: 0px;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+    }
+    .navbar img {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar .left {
+        padding-left: 5px;
+    }
+    .navbar .ul-right {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar .right {
+        float: right;
+        text-align: right;
+        margin: 0;
+        padding-right: 60px;
+    }
 }
