@@ -51,7 +51,7 @@
                         <h1>Update Feed</h1><br><br>
                         <hr>
                         <div class="commits">
-                            <div class="commit">
+                            <!-- <div class="commit">
                                 <div class="image">
                                     <img class="commit-image" src="">
                                 </div>
@@ -63,7 +63,7 @@
                                         <p class="commit-message"></p>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                         </div>
                         <hr>
                     </div>
@@ -127,19 +127,19 @@
     </div>
     <script>
         $.get("https://api.github.com/repos/IntranetProject/intranet_frontend/commits", function(data, status) {
-            //$(".update-feed").append(data);
             var i = 0;
-            var x = 1;
+            var x = 3;
             $.each(data, function(idx, obj) {
                 if (i >= x) {
                     return false;
-                };
-                $(".commits").append('<div class="commit"> <div class="image"> <img class="commit-image" src=""> </div><div class="content"> <p class="commit-name"></p><p class="commit-details"><a target="_blank" class="commit-details-link" href="">Details</a></p><div class="message"> <p>Update Text:</p><br><p class="commit-message"></p></div></div></div>');
-                $(".commit-image").attr('src', obj.author.avatar_url);
-                $(".commit-name").append(obj.commit.author.name);
-                $(".commit-details-link").attr('href', obj.html_url);
-                $(".commit-message").append(obj.commit.message + "<br>");
-                i++;
+                } else {
+                    $(".commits").append('<div class="commit"> <div class="image"> <img class="commit-image imagecommitid-' + idx + '" src=""> </div><div class="content"> <p class="commit-name commitnameid-' + idx + '"></p><p class="commit-details"><a target="_blank" class="commit-details-link commitdetailsid-' + idx + '" href="">Details</a></p><div class="message"> <p>Update Text:</p><br><p class="commit-message commitmessageid-' + idx + '"></p></div></div></div>');
+                    $(".imagecommitid-" + idx + "").attr('src', obj.author.avatar_url);
+                    $(".commitnameid-" + idx).append(obj.commit.author.name);
+                    $(".commitdetailsid-" + idx).attr('href', obj.html_url);
+                    $(".commitmessageid-" + idx).append(obj.commit.message + "<br>");
+                    i++;
+                }
             });
         });
 
