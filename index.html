@@ -24,6 +24,7 @@
         <div class="jumbotron">
             <div class="text">
                 <p>Intranet</p>
+                <small class="version_num" style="font-size: 0.4em; color: black;">...</small>
             </div>
         </div>
         <div style="clear:both;"></div>
@@ -133,6 +134,8 @@
                 if (i >= x) {
                     return false;
                 } else {
+                    var version = obj.commit.message.split(";");
+                    $(".version_num").html(version[0]);
                     $(".commits").append('<div class="commit"> <div class="image"> <img class="commit-image imagecommitid-' + idx + '" src=""> </div><div class="content"> <p class="commit-name commitnameid-' + idx + '"></p><p class="commit-details"><a target="_blank" class="commit-details-link commitdetailsid-' + idx + '" href="">Details</a></p><div class="message"> <p>Update Text:</p><br><p class="commit-message commitmessageid-' + idx + '"></p></div></div></div>');
                     $(".imagecommitid-" + idx + "").attr('src', obj.author.avatar_url);
                     $(".commitnameid-" + idx).append(obj.commit.author.name);
