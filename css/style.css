@@ -327,8 +327,8 @@ hr {
     width: 100%;
     font-size: 150%;
     color: white;
-    height: 40px;
-    background-color: #797D80
+    height: 5%;
+    background-color: #2D3438;
 }
 
 .git,
@@ -337,6 +337,9 @@ hr {
     width: calc(100%/3);
     float: left;
     text-align: center;
+    background-color: #2D3438;
+    margin-top: 0.5%;
+    font-family: 'Crimson Text', serif;
 }
 
 .footer a {
