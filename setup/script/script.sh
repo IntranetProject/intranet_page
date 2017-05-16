@@ -6,6 +6,7 @@ apt-get install apache2 apache2-doc apache2-utils
 apt-get install libapache2-mod-php5 php5 php-pear php5-xcache
 apt-get install php5-mysql
 apt-get install mysql-server mysql-client
+apt-get install nano
 
 cd /var/www
 git clone https://github.com/IntranetProject/intranet_frontend.git
