@@ -481,3 +481,32 @@ hr {
         padding-right: 60px;
     }
 }
+
+@media screen and (max-width: 1920px) {
+    .navbar {
+        font-size: 3em;
+    }
+    .right {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .left {
+        margin-left: 70px;
+    }
+    .commit-name {
+        font-size: 1.5em !important;
+    }
+    .commit-details {
+        font-size: 0.8em !important;
+    }
+    .botttom {
+        border: 0px !important;
+    }
+    .h1 {
+        line-height: 150% !important;
+    }
+    .break {
+        border: 0.5px solid black;
+        margin-top: 300px !important;
+    }
+}
