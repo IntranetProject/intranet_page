@@ -1,0 +1,17 @@
+#!/bin/sh
+apt-get update -y # To get the latest package lists
+apt-get upgrade -y
+
+apt-get install apache2 apache2-doc apache2-utils -y
+apt-get install libapache2-mod-php5 php5 php-pear php5-xcache -y
+apt-get install php5-mysql -y
+apt-get install mysql-server mysql-client
+apt-get install phpmyadmin -y
+apt-get install nano -y
+
+cd /var/www
+git clone https://github.com/IntranetProject/intranet_frontend.git
+rm -r var/www/html
+mv /var/www/intranet_frontend-master /var/www/html
+
+#etc.
