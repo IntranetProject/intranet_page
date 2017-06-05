@@ -12,6 +12,6 @@ apt-get install nano -y
 cd /var/www
 git clone https://github.com/IntranetProject/intranet_frontend.git
 rm -r /var/www/html
-mv /var/www/intranet_frontend-master /var/www/html
+mv /var/www/intranet_frontend /var/www/html
 
 #etc.
