@@ -434,20 +434,28 @@ hr {
         width: 100%;
     }
     .contact {
-        text-align: center !important;
         margin: 0;
         padding: 0;
     }
     .innercontact {
-        text-align: center !important;
         margin: 0;
         padding: 20px;
+    }
+    .innercontact h1 {
+        text-align: center !important;
     }
     .footer {
         width: 100%;
         padding: 0;
         margin: 0;
         height: 80px;
+        background-color: #2D3438;
+        border-top: 1px solid black;
+    }
+    .footer a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        text-align: left;
     }
     .git,
     .imp,
@@ -461,11 +469,20 @@ hr {
         padding: 0px;
         margin: 0;
         width: 100%;
-        position: absolute;
+        z-index: auto;
+        position: relative;
+    }
+    .navbar li {
+        display: block;
+        width: 100%;
     }
     .navbar img {
         padding: 0;
         margin: 0;
+    }
+    .jumbotron {
+        z-index: auto;
+        position: relative;
     }
     .navbar .left {
         padding-left: 5px;
