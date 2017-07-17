@@ -536,22 +536,37 @@ hr {
     }
 }
 
-::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	border-radius: 1px;
-	background-color: #4E5C63;
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 1px;
+    background-color: #4E5C63;
 }
 
-::-webkit-scrollbar
-{
-	width: 12px;
-	background-color: #4E5C63;
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #4E5C63;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 1px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-	background-color: #2D3438;
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #2D3438;
+}
+
+.footer {
+    width: 100%;
+    font-size: 150%;
+    color: white;
+    height: 5%;
+    background-color: #2D3438;
+}
+
+.git,
+.imp,
+.credit {
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    background-color: #2D3438;
+    margin-top: 0.5%;
 }
