@@ -22,12 +22,8 @@ if (!(file_exists("up.txt"))) {
                     <div class="ul-right">
                         <li class="right"><a href="http://status.intranetproject.net">Status</a></li>
                         <li class="right"><a href="http://docs.intranetproject.net">Documentation</a></li>
-                        <li class="right"><a href="#contact">Contact</a></li>
-                        <li class="right"><a href="#team">Team</a>
-                        </li>
-                        <li class="right">
-                            <a href="#info">Info</a></li>
-                        <li class="right"><a href="#download">Download</a></li>
+                        <li class="right"><a href="http://blog.intranetproject.net">Blog</a></li>
+                        <li class="right"><a href="#download">Download & Shop</a></li>
                     </div>
                 </ul>
             </div>
@@ -40,29 +36,17 @@ if (!(file_exists("up.txt"))) {
             <div style="clear:both;"></div>
             <div class="innerbox">
                 <div class="inner-innerbox">
-                    <div id="download" class="download">
-                        <div class="download-text">
-                            <h1>Download</h1>
-                            <br>
-                            <p>Here you can download the newest versions:</p>
-                            <small>Important: We do not promisse that the Beta builds are bug free! Be sure that these versions might not work and could result in Data loss!</small>
-                        </div>
-                        <div class="buttons">
-                            <div class="button1">
-                                <button><a href="downloads/release/">Release</a></button>
-                            </div>
-                            <div class="button2">
-                                <button><a href="downloads/beta/">Beta</a></button>
-                            </div>
-                        </div>
+                    <div id="info" class="intranet">
+                        <h1>What is Intranet?</h1><br><br>
+                        <p><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need to start your own SmartHome. We hope that a community will come together and program more modules!</p>
                     </div>
                     <div style="clear: both;"></div>
                     <div class="middle">
                         <div class="feed">
                             <h1>Update Feed</h1><br><br>
-                            <hr>
+                            <hr class="feedhr">
                             <div class="commits">
-                                <!-- shit's gonna get add here -->
+                                <!-- shit's gonna get added here -->
                             </div>
                             <hr class="botttom">
                         </div>
@@ -76,11 +60,7 @@ if (!(file_exists("up.txt"))) {
                             </div>
                         </div>
                     </div>
-                    <div style="clear: both;"></div>
-                    <div id="info" class="intranet">
-                        <h1>What is Intranet?</h1><br><br>
-                        <p><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need to start your own SmartHome. We hope that a community will come together and program more modules!</p>
-                    </div>
+                    <hr class="break">
                     <div style="clear: both;"></div>
                     <div id="team" class="team">
                         <div class="innerteam">
@@ -102,7 +82,39 @@ if (!(file_exists("up.txt"))) {
                             </div>
                         </div>
                     </div>
-                    <hr class="break" style="margin-top: 250px; !important">
+                    <div id="download" class="download">
+                        <h1>Download</h1>
+                        <div class="download-text">
+                            <p>Here you can download the newest software versions:</p><br>
+                            <small>Important:<br>We do not promisse that the Beta builds are bug free!<br>Be sure that these versions might not work and could result in Data loss!</small>
+                        </div>
+                        <div class="buttons">
+                            <div class="button1">
+                                <button>
+                                    <a href="http://download.intranetproject.net">Downloads<br>
+                                        <small>This will redirect you to the download page.</small></a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div id="shop" class="shop">
+                        <h1>Shop</h1>
+                        <div class="shop-text">
+                            <p>Here you can browse and buy the newest hardware modules:</p><br>
+                            <!--<small>Important: <br>We do not promisse that the Beta builds are bug free! <br>Be sure that these versions might not work and could result in Data loss!</small>-->
+                        </div>
+                        <div class="buttons">
+                            <div class="button1">
+                                <button>
+                                    <a href="http://shop.intranetproject.net">Shop<br>
+                                        <small>This will redirect you to the shop page.</small></a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
                     <div style="clear: both;"></div>
                     <div class="contact" id="contact">
                         <div class="innercontact">
