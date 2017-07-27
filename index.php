@@ -40,26 +40,6 @@ if (!(file_exists("up.txt"))) {
                         <h1>What is Intranet?</h1><br><br>
                         <p><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need to start your own SmartHome. We hope that a community will come together and program more modules!</p>
                     </div>
-                    <div style="clear: both;"></div>
-                    <div class="middle">
-                        <div class="feed">
-                            <h1>Update Feed</h1><br><br>
-                            <hr class="feedhr">
-                            <div class="commits">
-                                <!-- shit's gonna get added here -->
-                            </div>
-                            <hr class="botttom">
-                        </div>
-                        <div class="pic">
-                            <h1 style="padding: 20px;">Images</h1>
-                            <div class="topleft">
-                                <a target="_blank" href="pic/login.png"><img id="img1" src="pic/login.png" /></a>
-                            </div>
-                            <div class="bottomleft">
-                                <a target="_blank" href="pic/settings.png"><img src="pic/settings.png" /></a>
-                            </div>
-                        </div>
-                    </div>
                     <hr class="break">
                     <div style="clear: both;"></div>
                     <div id="team" class="team">
@@ -79,6 +59,27 @@ if (!(file_exists("up.txt"))) {
                                 <img class="moritzpic" src="logo.png" width="100px" height="100px" />
                                 <h1 class="h1">Moritz</h1>
                                 <p class="moritztext">My name is Moritz. I'm 18 years old and I live in Germany. I'm not a developer and organize our community and finances. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="break">
+                    <div style="clear: both;"></div>
+                    <div class="middle">
+                        <div class="feed">
+                            <h1>Update Feed</h1><br><br>
+                            <hr class="feedhr">
+                            <div class="commits">
+                                <!-- shit's gonna get added here -->
+                            </div>
+                            <hr class="botttom">
+                        </div>
+                        <div class="pic">
+                            <h1 style="padding: 20px;">Images</h1>
+                            <div class="topleft">
+                                <a target="_blank" href="pic/login.png"><img id="img1" src="pic/login.png" /></a>
+                            </div>
+                            <div class="bottomleft">
+                                <a target="_blank" href="pic/settings.png"><img src="pic/settings.png" /></a>
                             </div>
                         </div>
                     </div>
