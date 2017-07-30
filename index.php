@@ -20,10 +20,10 @@ if (!(file_exists("up.txt"))) {
                 <ul>
                     <li class="left"><img src="logo.png" width="70px" height="70px"></li>
                     <div class="ul-right">
-                        <li class="right"><a href="http://status.intranetproject.net">Status</a></li>
-                        <li class="right"><a href="http://docs.intranetproject.net">Documentation</a></li>
-                        <li class="right"><a href="http://blog.intranetproject.net">Blog</a></li>
-                        <li class="right"><a href="#download">Download & Shop</a></li>
+                        <div><a href="http://status.intranetproject.net"><li class="right"><p> Status </p></li></a></div>
+                        <div><a href="http://docs.intranetproject.net"><li class="right"><p> Documentation </p></li></a></div>
+                        <div><a href="http://blog.intranetproject.net"><li class="right"><p> Blog </p></li></a></div>
+                        <div><a href="#download"><li class="right"><p> Download & Shop </p></li></a></div>
                     </div>
                 </ul>
             </div>

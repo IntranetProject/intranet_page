@@ -32,15 +32,18 @@
 
 .right {
     float: right;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
     text-align: center;
     color: white;
-    margin-top: 0em;
     height: 70px;
 }
-
-.right a {
+.right p {
+    line-height: 100%;
+    height: calc(100% - 25px);
+    padding-top: 25px;
+}
+.ul-right a {
     text-decoration: none;
     color: white;
     font-size: 0.35em;
