@@ -20,10 +20,34 @@ if (!(file_exists("up.txt"))) {
                 <ul>
                     <li class="left"><img src="logo.png" width="70px" height="70px"></li>
                     <div class="ul-right">
-                        <div><a href="http://status.intranetproject.net"><li class="right"><p> Status </p></li></a></div>
-                        <div><a href="http://docs.intranetproject.net"><li class="right"><p> Documentation </p></li></a></div>
-                        <div><a href="http://blog.intranetproject.net"><li class="right"><p> Blog </p></li></a></div>
-                        <div><a href="#download"><li class="right"><p> Download & Shop </p></li></a></div>
+                        <div>
+                            <a href="http://status.intranetproject.net">
+                                <li class="right">
+                                    <p> Status </p>
+                                </li>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="http://docs.intranetproject.net">
+                                <li class="right">
+                                    <p> Documentation </p>
+                                </li>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="http://blog.intranetproject.net">
+                                <li class="right">
+                                    <p> Blog </p>
+                                </li>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#download">
+                                <li class="right">
+                                    <p> Download & Shop </p>
+                                </li>
+                            </a>
+                        </div>
                     </div>
                 </ul>
             </div>
@@ -87,7 +111,7 @@ if (!(file_exists("up.txt"))) {
                         <h1>Download</h1>
                         <div class="download-text">
                             <p>Here you can download the newest software versions:</p><br>
-                            <small>Important:<br>We do not promisse that the Beta builds are bug free!<br>Be sure that these versions might not work and could result in Data loss!</small>
+                            <small>Important:<br>We do not promisse that the Beta builds are bug free!<br><br>Be sure that these versions might not work and could result in Data loss!</small>
                         </div>
                         <div class="buttons">
                             <div class="button1">
@@ -115,6 +139,30 @@ if (!(file_exists("up.txt"))) {
 
                             </div>
                         </div>
+                    </div>
+                    <div class="links">
+                        <h1>Links</h1>
+                        <div class="linkbuttons">
+                            <div class="linkbutton button1">
+                                <button>
+                                    <a href="http://blog.intranetproject.net">Blog<br>
+                                        <small>This will redirect you to the blog page.</small></a>
+                                </button>
+                            </div>
+                            <div class="linkbutton button1">
+                                <button>
+                                    <a href="http://docs.intranetproject.net">Documentation<br>
+                                        <small>This will redirect you to the docs page.</small></a>
+                                </button>
+                            </div>
+                            <div class="linkbutton button1">
+                                <button>
+                                    <a href="http://status.intranetproject.net">Status<br>
+                                        <small>This will redirect you to the status page.</small></a>
+                                </button>
+                            </div>
+                        </div>
+                        <hr>
                     </div>
                     <div style="clear: both;"></div>
                     <div class="contact" id="contact">

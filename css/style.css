@@ -38,11 +38,13 @@
     color: white;
     height: 70px;
 }
+
 .right p {
     line-height: 100%;
     height: calc(100% - 25px);
     padding-top: 25px;
 }
+
 .ul-right a {
     text-decoration: none;
     color: white;
@@ -96,7 +98,8 @@ small {
     font-size: 0.3em;
 }
 
-.download, .shop {
+.download,
+.shop {
     width: 100%;
     height: auto;
     overflow: auto;
@@ -107,34 +110,35 @@ small {
     margin-bottom: 2%;
 }
 
-.download h1, .shop h1 {
+.download h1,
+.shop h1 {
     font-size: 4em !important;
     font-family: 'Roboto:500i', sans-serif !important;
     margin-bottom: 20px;
 }
 
-.download-text, .shop-text {
+.download-text,
+.shop-text {
     font-size: 1.4em;
     float: left;
-    text-align: justify;
-    width: 45%;
-    padding-left: 50px;
-    right: 10px;
-
+    text-align: center;
+    width: 98%;
+    padding-left: 1%;
+    right: 1%;
 }
 
-.download-text small, .shop-text small {
+.download-text small,
+.shop-text small {
     font-size: 0.7em !important;
     line-height: 110%;
 }
+
 .download {
     border-top: 1px solid #1D2224;
 }
+
 .shop {
     border-bottom: 1px solid #1D2224;
-}
-.buttons {
-
 }
 
 button a {
@@ -145,19 +149,21 @@ button a {
 
 .button1 button {
     background-color: #2D3438;
-    width: 40%;
+    width: 30%;
     height: 10%;
     text-decoration: none;
     border: none;
     float: left;
     margin-right: 20%;
-    margin-left: 30%;
+    margin-left: 35%;
     border: 1px white solid;
 }
+
 .button1 {
     float: right;
     height: inherit;
-    width: 50%;
+    width: 100%;
+    margin-top: 2%;
 }
 
 button a small {
@@ -300,6 +306,10 @@ hr {
 
 .intranet a:hover {
     background: rgba(255, 255, 255, 0.4);
+}
+
+.links {
+    display: none;
 }
 
 .team {
@@ -536,36 +546,6 @@ hr {
     }
 }
 
-@media screen and (max-width: 1920px) {
-    .navbar {
-        font-size: 3em;
-    }
-    .right {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .left {
-        margin-left: 70px;
-    }
-    .commit-name {
-        font-size: 1.5em !important;
-    }
-    .commit-details {
-        font-size: 0.8em !important;
-    }
-    .botttom {
-        border: 0px !important;
-    }
-    .h1 {
-        line-height: 150% !important;
-    }
-    .break {
-        border: 0.5px solid black;
-        margin-top: 15px;
-        margin-bottom: 1px;
-    }
-}
-
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 1px;
@@ -599,4 +579,79 @@ hr {
     text-align: center;
     background-color: #2D3438;
     margin-top: 0.5%;
+}
+
+@media screen and (max-width: 1920px) {
+    .navbar {
+        font-size: 3em;
+    }
+    .right {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .left {
+        margin-left: 70px;
+    }
+    .commit-name {
+        font-size: 1.5em !important;
+    }
+    .commit-details {
+        font-size: 0.8em !important;
+    }
+    .botttom {
+        border: 0px !important;
+    }
+    .h1 {
+        line-height: 150% !important;
+    }
+    .break {
+        border: 0.5px solid black;
+        margin-top: 15px;
+        margin-bottom: 1px;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .left {
+        float: right !important;
+        text-align: right !important;
+    }
+    .ul-right {
+        display: none;
+    }
+    .linkbuttons button {
+        background-color: #2D3438;
+        width: 100%;
+        height: 10%;
+        text-decoration: none;
+        border: none;
+        float: left;
+        border: 1px white solid;
+    }
+    .linkbuttons {
+        width: 100%;
+    }
+    .linkbutton {
+        float: left;
+        margin-bottom: 5%;
+    }
+    .button1 button {
+    width: 90%;
+        margin-left: 5%;
+}
+    .links {
+        display: block;
+    }
+    .contact {
+        text-align: center;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        padding-left: 25%;
+    }
+    .download-text {
+        width: 96% !important;
+    }
+    .download-text small {
+    }
 }
