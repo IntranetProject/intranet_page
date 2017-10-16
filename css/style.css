@@ -20,7 +20,12 @@
 .left {
     float: left;
 }
-
+.version_num {
+    font-size: 0.4em;
+    color: #8C8C8C;
+    text-decoration: underline;
+    font-weight: bold;
+}
 .left img {
     border-radius: 50%;
     margin-left: 100px;

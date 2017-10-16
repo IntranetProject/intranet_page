@@ -54,7 +54,7 @@ if (!(file_exists("up.txt"))) {
             <div class="jumbotron">
                 <div class="text">
                     <p>Intranet</p>
-                    <small class="version_num" style="font-size: 0.4em; color: #121420;">...</small>
+                    <small class="version_num">...</small>
                 </div>
             </div>
             <div style="clear:both;"></div>
