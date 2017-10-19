@@ -1,663 +1,637 @@
 .container {
-    font-family: 'Roboto', sans-serif;
-    background-color: #4E5C63;
+  font-family: 'Roboto', sans-serif;
+  background-color: #4E5C63;
 }
 
 .top {}
 
 .navbar {
-    font-size: 3em;
-    z-index: 999;
-    position: fixed;
-    background-color: #2D3438;
-    height: 70px;
-    width: 100%;
-    box-shadow: 0px 0px 50px 20px black;
+  font-size: 3em;
+  z-index: 999;
+  position: fixed;
+  background-color: #2D3438;
+  height: 70px;
+  width: 100%;
+  box-shadow: 0px 0px 50px 20px black;
 }
 
 .navbar ul {}
 
 .left {
-    float: left;
+  float: left;
 }
+
 .version_num {
-    font-size: 0.4em;
-    color: #3c3c3c;
-    text-decoration: underline;
-    font-weight: bold;
+  font-size: 0.4em;
+  color: #3c3c3c;
+  text-decoration: underline;
+  font-weight: bold;
 }
+
 .left img {
-    border-radius: 50%;
-    margin-left: 100px;
+  border-radius: 50%;
+  margin-left: 100px;
 }
 
 .ul-right {
-    margin-right: 100px;
+  margin-right: 100px;
 }
 
 .right {
-    float: right;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
-    color: white;
-    height: 70px;
+  float: right;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color: white;
+  height: 70px;
 }
 
 .right p {
-    line-height: 100%;
-    height: calc(100% - 25px);
-    padding-top: 25px;
+  line-height: 100%;
+  height: calc(100% - 25px);
+  padding-top: 25px;
 }
 
 .ul-right a {
-    text-decoration: none;
-    color: white;
-    font-size: 0.35em;
+  text-decoration: none;
+  color: white;
+  font-size: 0.35em;
 }
 
 .right:hover {
-    background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .jumbotron {
-    background-image: url(../pic/jumbotron.jpg);
-    background-position: 1000px;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 70%;
-    display: table;
-    z-index: 100;
+  background-image: url(../pic/jumbotron.jpg);
+  background-position: 1000px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70%;
+  display: table;
+  z-index: 100;
 }
 
 .text {
-    font-family: 'Roboto:700i', sans-serif;
-    vertical-align: middle;
-    display: table-cell;
-    color: #3c3c3c;
-    text-align: center;
-    font-size: 7em;
-    background-color: rgba(255, 255, 255, 0.5);
+  font-family: 'Roboto:700i', sans-serif;
+  vertical-align: middle;
+  display: table-cell;
+  color: #3c3c3c;
+  text-align: center;
+  font-size: 7em;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .innerbox {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: -70px;
-    padding: 10px;
-    box-shadow: 0px 0px 50px 0px black;
-    display: block;
-    background-color: #2D3438;
-    color: white;
-    z-index: 150;
-    margin-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: -70px;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 0px black;
+  display: block;
+  background-color: #2D3438;
+  color: white;
+  z-index: 150;
+  margin-bottom: 50px;
 }
 
 .inner-innerbox {
-    width: 98%;
-    margin: 0 auto;
+  width: 98%;
+  margin: 0 auto;
 }
 
 small {
-    color: #FF4336;
-    font-size: 0.3em;
+  color: #FF4336;
+  font-size: 0.3em;
 }
 
-.download,
-.shop {
-    width: 100%;
-    height: auto;
-    overflow: auto;
-    display: block;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+.download, .shop {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  display: block;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.download h1,
-.shop h1 {
-    font-size: 4em !important;
-    font-family: 'Roboto:500i', sans-serif !important;
-    margin-bottom: 20px;
+.download h1, .shop h1 {
+  font-size: 4em !important;
+  font-family: 'Roboto:500i', sans-serif !important;
+  margin-bottom: 20px;
 }
 
-.download-text,
-.shop-text {
-    font-size: 1.4em;
-    float: left;
-    text-align: center;
-    width: 98%;
-    padding-left: 1%;
-    right: 1%;
+.download-text, .shop-text {
+  font-size: 1.4em;
+  float: left;
+  text-align: center;
+  width: 98%;
+  padding-left: 1%;
+  right: 1%;
 }
 
-.download-text small,
-.shop-text small {
-    font-size: 0.7em !important;
-    line-height: 110%;
+.download-text small, .shop-text small {
+  font-size: 0.7em !important;
+  line-height: 110%;
 }
 
 .download {
-    border-top: 1px solid #1D2224;
+  border-top: 1px solid #1D2224;
 }
 
 .shop {
-    border-bottom: 1px solid #1D2224;
+  border-bottom: 1px solid #1D2224;
 }
 
-button a {
-    text-decoration: none;
-    color: white;
-    font-size: 2em;
+button p {
+  text-decoration: none;
+  color: white;
+  font-size: 2.3em;
 }
 
 .button1 button {
+  background-color: #2D3438;
+  width: 30%;
+  height: 10%;
+  text-decoration: none;
+  border: none;
+  float: left;
+  margin-right: 20%;
+  margin-left: 35%;
+  border: 1px white solid;
+}
+
+.button1 {
+  float: right;
+  height: inherit;
+  width: 100%;
+  margin-top: 2%;
+}
+
+button p small {
+  font-size: 0.5em;
+  color: white;
+}
+
+.middle {
+  width: 100%;
+  margin-top: 20px;
+  height: 83%;
+  margin-bottom: 50px;
+}
+
+.feed {
+  height: 100%;
+  width: 44%;
+  margin-right: 5%;
+  float: left;
+  border: 1px solid;
+  border-color: #1d2224;
+}
+
+.feed h1 {
+  font-size: 2em;
+  padding: 10px;
+  margin: 0;
+}
+
+.discord {
+  width: 39%;
+  margin-left: 5%;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 30px;
+}
+
+.pic {
+  width: 39%;
+  margin-left: 5%;
+  float: right;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  border: 1px solid #1D2224;
+  padding: 4px;
+}
+
+.topleft img, .bottomleft img {
+  width: 100%;
+  border: 1px solid;
+  border-color: #1D2224;
+  margin-bottom: 25px;
+}
+
+.update-feed {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.intranet {
+  width: 95%;
+  border: 1px solid;
+  border-color: #1d2224;
+  margin-bottom: 30px;
+  padding: 2%;
+  margin-top: 20px;
+}
+
+.goal {
+  width: 95%;
+  border: 1px solid;
+  border-color: #1d2224;
+  padding: 2%;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Roboto:900i', sans-serif !important;
+  font-size: 2em !important;
+  text-align: center;
+}
+
+.image {
+  float: left;
+  width: 25%;
+}
+
+.commit-image {
+  width: 90%;
+  border-radius: 50%;
+}
+
+.content {
+  float: right;
+  width: 75%;
+}
+
+.commit-name {
+  font-size: 2em !important;
+  float: left;
+}
+
+.commit-details {
+  width: 50%;
+  font-size: 1em !important;
+  float: left;
+  margin-left: 15px;
+}
+
+.commit-details a {
+  color: white;
+  text-decoration: underline;
+}
+
+.commit {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 40px;
+}
+
+.message {
+  margin-top: 60px
+}
+
+hr {
+  width: 100%;
+  border: 1px solid;
+  border-color: #1d2224;
+}
+
+.feedhr {
+  margin-bottom: 50px;
+}
+
+.intranet a {
+  color: white;
+}
+
+.intranet a:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.links {
+  display: none;
+}
+
+.team {
+  width: 100%;
+  margin-top: 0;
+  height: auto;
+  overflow: auto;
+  display: block;
+}
+
+.tobi, .bennet, .moritz {
+  width: calc(100%/3);
+  float: left;
+}
+
+.tobipic, .bennetpic, .moritzpic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.tobi h1, .bennet h1, .moritz h1 {
+  text-align: center;
+  font-size: 2em !important;
+  margin-bottom: 5px;
+}
+
+.tobitext, .bennettext, .moritztext {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 2%;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.tobitext a, .bennettext a, .moritztext a {
+  text-decoration: none;
+  color: white;
+}
+
+.innerteam h1 {
+  text-align: center;
+  font-size: 2em !important;
+  margin-bottom: 20px;
+  height: inherit;
+  margin-top: 15px;
+}
+
+.footer {
+  width: 100%;
+  font-size: 150%;
+  color: white;
+  height: 5%;
+  background-color: #2D3438;
+}
+
+.git, .imp, .credit {
+  width: calc(100%/3);
+  float: left;
+  text-align: center;
+  background-color: #2D3438;
+  margin-top: 0.5%;
+  font-family: 'Crimson Text', serif;
+}
+
+.footer a {
+  text-decoration: underline;
+  color: white;
+}
+
+.contact {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.contact h1 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.innercontact {
+  margin-bottom: 30px;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 2px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.innercontact a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  .innerbox {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .inner-innerbox {
+    width: 100%;
+  }
+  .tobi, .bennet, .moritz {
+    width: 100%;
+  }
+  .download {
+    display: block;
+    width: 100%;
+  }
+  .download-text {
+    display: block;
+    width: 100%;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .download .buttons {
+    display: block;
+    width: 100%;
+  }
+  .middle {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .middle .feed {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: auto;
+  }
+  .middle .pic {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  .commits {
+    width: 100%;
+  }
+  .contact {
+    margin: 0;
+    padding: 0;
+  }
+  .innercontact {
+    margin: 0;
+    padding: 20px;
+  }
+  .innercontact h1 {
+    text-align: center !important;
+  }
+  .footer {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 80px;
     background-color: #2D3438;
-    width: 30%;
+    border-top: 1px solid black;
+  }
+  .footer a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
+  .git, .imp, .credit {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar {
+    height: auto;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+    z-index: auto;
+    position: relative;
+  }
+  .navbar li {
+    display: block;
+    width: 100%;
+  }
+  .navbar img {
+    padding: 0;
+    margin: 0;
+  }
+  .jumbotron {
+    z-index: auto;
+    position: relative;
+  }
+  .navbar .left {
+    padding-left: 5px;
+  }
+  .navbar .ul-right {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar .right {
+    float: right;
+    text-align: right;
+    margin: 0;
+    padding-right: 60px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 1px;
+  background-color: #4E5C63;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #4E5C63;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #2D3438;
+}
+
+.footer {
+  width: 100%;
+  font-size: 150%;
+  color: white;
+  height: 5%;
+  background-color: #2D3438;
+}
+
+.git, .imp, .credit {
+  width: calc(100%/3);
+  float: left;
+  text-align: center;
+  background-color: #2D3438;
+  margin-top: 0.5%;
+}
+
+@media screen and (max-width: 1920px) {
+  .navbar {
+    font-size: 3em;
+  }
+  .right {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .left {
+    margin-left: 70px;
+  }
+  .commit-name {
+    font-size: 1.5em !important;
+  }
+  .commit-details {
+    font-size: 0.8em !important;
+  }
+  .botttom {
+    border: 0px !important;
+  }
+  .h1 {
+    line-height: 150% !important;
+  }
+  .break {
+    border: 0.5px solid black;
+    margin-top: 15px;
+    margin-bottom: 1px;
+  }
+}
+
+@media only screen and (max-width:1000px) {
+  .left {
+    float: right !important;
+    text-align: right !important;
+  }
+  .ul-right {
+    display: none;
+  }
+  .linkbuttons button {
+    background-color: #2D3438;
+    width: 100%;
     height: 10%;
     text-decoration: none;
     border: none;
     float: left;
-    margin-right: 20%;
-    margin-left: 35%;
     border: 1px white solid;
-}
-
-.button1 {
-    float: right;
-    height: inherit;
+  }
+  .linkbuttons {
     width: 100%;
-    margin-top: 2%;
-}
-
-button a small {
-    font-size: 0.5em;
-    color: white;
-}
-
-.middle {
-    width: 100%;
-    margin-top: 20px;
-    height: 83%;
-    margin-bottom: 50px;
-}
-
-.feed {
-    height: 100%;
-    width: 44%;
-    margin-right: 5%;
+  }
+  .linkbutton {
     float: left;
-    border: 1px solid;
-    border-color: #1d2224;
-}
-
-.feed h1 {
-    font-size: 2em;
-    padding: 10px;
-    margin: 0;
-}
-
-.discord {
-    width: 39%;
-    margin-left: 5%;
-    float: right;
-    margin-right: 5%;
-    margin-bottom: 30px;
-}
-
-.pic {
-    width: 39%;
-    margin-left: 5%;
-    float: right;
-    margin-right: 5%;
-    margin-bottom: 30px;
-    border: 1px solid #1D2224;
-    padding: 4px;
-}
-
-.topleft img,
-.bottomleft img {
-    width: 100%;
-    border: 1px solid;
-    border-color: #1D2224;
-    margin-bottom: 25px;
-}
-
-.update-feed {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.intranet {
-    width: 95%;
-    border: 1px solid;
-    border-color: #1d2224;
-    margin-bottom: 30px;
-    padding: 2%;
-    margin-top: 20px;
-}
-
-.goal {
-    width: 95%;
-    border: 1px solid;
-    border-color: #1d2224;
-    padding: 2%;
-    margin-bottom: 30px;
-}
-
-h1 {
-    font-family: 'Roboto:900i', sans-serif !important;
-    font-size: 2em !important;
-    text-align: center;
-}
-
-.image {
-    float: left;
-    width: 25%;
-}
-
-.commit-image {
+    margin-bottom: 5%;
+  }
+  .button1 button {
     width: 90%;
-    border-radius: 50%;
-}
-
-.content {
-    float: right;
-    width: 75%;
-}
-
-.commit-name {
-    font-size: 2em !important;
-    float: left;
-}
-
-.commit-details {
-    width: 50%;
-    font-size: 1em !important;
-    float: left;
-    margin-left: 15px;
-}
-
-.commit-details a {
-    color: white;
-    text-decoration: underline;
-}
-
-.commit {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 40px;
-}
-
-.message {
-    margin-top: 60px
-}
-
-hr {
-    width: 100%;
-    border: 1px solid;
-    border-color: #1d2224;
-}
-
-.feedhr {
-    margin-bottom: 50px;
-}
-
-.intranet a {
-    color: white;
-}
-
-.intranet a:hover {
-    background: rgba(255, 255, 255, 0.4);
-}
-
-.links {
-    display: none;
-}
-
-.team {
-    width: 100%;
-    margin-top: 0;
-    height: auto;
-    overflow: auto;
+    margin-left: 5%;
+  }
+  .links {
     display: block;
-}
-
-.tobi,
-.bennet,
-.moritz {
-    width: calc(100%/3);
-    float: left;
-}
-
-.tobipic,
-.bennetpic,
-.moritzpic {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.tobi h1,
-.bennet h1,
-.moritz h1 {
+  }
+  .contact {
     text-align: center;
-    font-size: 2em !important;
-    margin-bottom: 5px;
-}
-
-.tobitext,
-.bennettext,
-.moritztext {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 2%;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
-.tobitext a,
-.bennettext a,
-.moritztext a {
-    text-decoration: none;
-    color: white;
-}
-
-.innerteam h1 {
-    text-align: center;
-    font-size: 2em !important;
-    margin-bottom: 20px;
-    height: inherit;
-    margin-top: 15px;
-}
-
-.footer {
-    width: 100%;
-    font-size: 150%;
-    color: white;
-    height: 5%;
-    background-color: #2D3438;
-}
-
-.git,
-.imp,
-.credit {
-    width: calc(100%/3);
-    float: left;
-    text-align: center;
-    background-color: #2D3438;
-    margin-top: 0.5%;
-    font-family: 'Crimson Text', serif;
-}
-
-.footer a {
-    text-decoration: underline;
-    color: white;
-}
-
-.footer a:hover {
-    background: rgba(255, 255, 255, 0.4);
-}
-
-.contact {
-    width: 100%;
-    margin-top: 50px;
-}
-
-.contact h1 {
-    font-size: 2em;
-    margin-bottom: 15px;
-}
-
-.innercontact {
-    margin-bottom: 30px;
-    width: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
-    padding: 2px;
-    text-align: center;
-    padding-bottom: 5px;
-}
-
-.innercontact a {
-    text-decoration: none;
-    color: white;
-}
-
-@media only screen and (max-width: 768px) {
-    .container {
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    }
-    .innerbox {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    .inner-innerbox {
-        width: 100%;
-    }
-    .tobi,
-    .bennet,
-    .moritz {
-        width: 100%;
-    }
-    .download {
-        display: block;
-        width: 100%;
-    }
-    .download-text {
-        display: block;
-        width: 100%;
-        padding-left: 7px;
-        padding-right: 7px;
-    }
-    .download .buttons {
-        display: block;
-        width: 100%;
-    }
-    .middle {
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-    .middle .feed {
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        float: left;
-        height: auto;
-    }
-    .middle .pic {
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        float: left;
-    }
-    .commits {
-        width: 100%;
-    }
-    .contact {
-        margin: 0;
-        padding: 0;
-    }
-    .innercontact {
-        margin: 0;
-        padding: 20px;
-    }
-    .innercontact h1 {
-        text-align: center !important;
-    }
-    .footer {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        height: 80px;
-        background-color: #2D3438;
-        border-top: 1px solid black;
-    }
-    .footer a {
-        text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        text-align: left;
-    }
-    .git,
-    .imp,
-    .credit {
-        display: block;
-        width: 100%;
-        text-align: center;
-    }
-    .navbar {
-        height: auto;
-        padding: 0px;
-        margin: 0;
-        width: 100%;
-        z-index: auto;
-        position: relative;
-    }
-    .navbar li {
-        display: block;
-        width: 100%;
-    }
-    .navbar img {
-        padding: 0;
-        margin: 0;
-    }
-    .jumbotron {
-        z-index: auto;
-        position: relative;
-    }
-    .navbar .left {
-        padding-left: 5px;
-    }
-    .navbar .ul-right {
-        margin: 0;
-        padding: 0;
-    }
-    .navbar .right {
-        float: right;
-        text-align: right;
-        margin: 0;
-        padding-right: 60px;
-    }
-}
-
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 1px;
-    background-color: #4E5C63;
-}
-
-::-webkit-scrollbar {
-    width: 12px;
-    background-color: #4E5C63;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 1px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #2D3438;
-}
-
-.footer {
-    width: 100%;
-    font-size: 150%;
-    color: white;
-    height: 5%;
-    background-color: #2D3438;
-}
-
-.git,
-.imp,
-.credit {
-    width: calc(100%/3);
-    float: left;
-    text-align: center;
-    background-color: #2D3438;
-    margin-top: 0.5%;
-}
-
-@media screen and (max-width: 1920px) {
-    .navbar {
-        font-size: 3em;
-    }
-    .right {
-        padding-left: 70px;
-        padding-right: 70px;
-    }
-    .left {
-        margin-left: 70px;
-    }
-    .commit-name {
-        font-size: 1.5em !important;
-    }
-    .commit-details {
-        font-size: 0.8em !important;
-    }
-    .botttom {
-        border: 0px !important;
-    }
-    .h1 {
-        line-height: 150% !important;
-    }
-    .break {
-        border: 0.5px solid black;
-        margin-top: 15px;
-        margin-bottom: 1px;
-    }
-}
-
-@media only screen and (max-width:1000px) {
-    .left {
-        float: right !important;
-        text-align: right !important;
-    }
-    .ul-right {
-        display: none;
-    }
-    .linkbuttons button {
-        background-color: #2D3438;
-        width: 100%;
-        height: 10%;
-        text-decoration: none;
-        border: none;
-        float: left;
-        border: 1px white solid;
-    }
-    .linkbuttons {
-        width: 100%;
-    }
-    .linkbutton {
-        float: left;
-        margin-bottom: 5%;
-    }
-    .button1 button {
-    width: 90%;
-        margin-left: 5%;
-}
-    .links {
-        display: block;
-    }
-    .contact {
-        text-align: center;
-        width: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        padding-left: 25%;
-    }
-    .download-text {
-        width: 96% !important;
-    }
-    .download-text small {
-    }
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 25%;
+  }
+  .download-text {
+    width: 96% !important;
+  }
+  .download-text small {}
 }

@@ -111,14 +111,16 @@ if (!(file_exists("up.txt"))) {
                         <h1>Download</h1>
                         <div class="download-text">
                             <p>Here you can download the newest software versions:</p><br>
-                            <small>Important:<br>We do not promisse that the Beta builds are bug free!<br><br>Be sure that these versions might not work and could result in Data loss!</small>
+                            <small>Important:<br>We do not promise that the Beta builds are bug free!<br><br>Be sure that these versions might not work and could result in Data loss!</small>
                         </div>
                         <div class="buttons">
                             <div class="button1">
+                              <a href="http://download.intranetproject.net">
                                 <button>
-                                    <a href="http://download.intranetproject.net">Downloads<br>
-                                        <small>This will redirect you to the download page.</small></a>
+                                    <p>Downloads<br>
+                                        <small>This will redirect you to the download page.</small></p>
                                 </button>
+                              </a>
 
                             </div>
                         </div>
@@ -132,11 +134,12 @@ if (!(file_exists("up.txt"))) {
                         </div>
                         <div class="buttons">
                             <div class="button1">
+                              <a href="http://shop.intranetproject.net">
                                 <button>
-                                    <a href="http://shop.intranetproject.net">Shop<br>
-                                        <small>This will redirect you to the shop page.</small></a>
+                                    <p>Shop<br>
+                                        <small>This will redirect you to the shop page.</small></p>
                                 </button>
-
+                                </a>
                             </div>
                         </div>
                     </div>
