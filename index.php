@@ -6,86 +6,102 @@ if (!(file_exists("up.txt"))) {
     <html>
 
     <head>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="css/reset.css" rel="stylesheet" type="text/css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css" media="screen,projection">
+      <link rel="stylesheet" href="css/style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     </head>
 
     <body>
-        <div class="container">
-            <div class="navbar">
-                <ul>
-                    <li class="left"><img src="logo.png" width="70px" height="70px"></li>
-                    <div class="ul-right">
-                        <div>
-                            <a href="http://status.intranetproject.net">
-                                <li class="right">
-                                    <p> Status </p>
-                                </li>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="http://docs.intranetproject.net">
-                                <li class="right">
-                                    <p> Documentation </p>
-                                </li>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="http://blog.intranetproject.net">
-                                <li class="right">
-                                    <p> Blog </p>
-                                </li>
-                            </a>
-                        </div>
-                        <div>
-                            <a href="#download">
-                                <li class="right">
-                                    <p> Download & Shop </p>
-                                </li>
-                            </a>
-                        </div>
-                    </div>
-                </ul>
-            </div>
+        <div class="container z-depth-5 teal lighten-2">
+          <header>
+              <nav>
+                <div>
+                  <img src="logo.png" width="70px" height="70px" class="left brand-logo">
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                      <li><a href="http://status.intranetproject.net">Status</a></li>
+                      <li><a href="http://docs.intranetproject.net">Documentation</a></li>
+                      <li><a href="http://blog.intranetproject.net">Blog</a></li>
+                      <li><a href="#download">Download & Shop</a></li>
+                    </ul>
+                </div>
+              </nav>
+          </header>
+          <main>
             <div class="jumbotron">
-                <div class="text">
+                <div class="center-align text">
                     <p>Intranet</p>
-                    <small class="version_num">...</small>
+                    <small class=" version_num">...</small>
                 </div>
             </div>
-            <div style="clear:both;"></div>
-            <div class="innerbox">
-                <div class="inner-innerbox">
-                    <div id="info" class="intranet">
-                        <h1>What is Intranet?</h1><br><br>
+            <div class="row">
+                <div class="col s10 offset-s1">
+                    <div id="info" class="card teal lighten-1">
+                      <div class="card-content white-text">
+                        <span class="card-title">What is Intranet?</span><br><br>
                         <p><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need to start your own SmartHome. We hope that a community will come together and program more modules!</p>
                     </div>
-                    <hr class="break">
-                    <div style="clear: both;"></div>
-                    <div id="team" class="team">
-                        <div class="innerteam">
-                            <h1>Team</h1>
-                            <div class="tobi">
-                                <img class="tobipic" src="pic/tobi.jpg" width="100px" height="100px" />
-                                <h1 style="font-size: 1.5em" class="h1">Tobi</h1>
-                                <p class="tobitext">My name is Tobias. I'm 16 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s10 offset-s1">
+              <div class="card teal lighten-1 white-text z-depth-1">
+                <div class="card-content">
+                  <span class="card-title">Team</span>
+                </div>
+                <div class="card-tabs">
+                  <ul class="tabs tabs-fixed-width teal lighten-1 ">
+                    <li class="tab"><a class="active white-text" href="#test4">Tobi</a></li>
+                    <li class="tab"><a class="white-text" href="#test5">Bennet</a></li>
+                    <li class="tab"><a class="white-text" href="#test6">Moritz</a></li>
+                  </ul>
+                </div>
+                <div class="card-content teal lighten-1">
+                  <div id="test4"><img class="circle" src="pic/tobi.jpg" width="50px" height="50px" />
+                    <h5>Tobi</h5>
+                    <p>My name is Tobias. I'm 17 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
+                  </div>
+                  <div id="test5">
+                    <img class="circle" src="pic/bennet.png" width="50px" height="50px" />
+                    <h5>Bennet</h5>
+                    <p>My name is Bennet. I'm 17 years old and I live in Germany. I'm a front- and back-end developer since 2015. Tobias and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
+                  </div>
+                  <div id="test6">
+                    <img class="circle" src="logo.png" width="50px" height="50px" />
+                    <h5>Moritz</h5>
+                    <p>My name is Moritz. I'm 18 years old and I live in Germany. I'm not a developer and organize our community and finances. </p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <!-- <div class="row">
+                      <div class="col s12">
+                    <div id="team" class="card teal lighten-2">
+                        <div class="card-content white-text">
+                            <span class="card-title">Team</span>
+                            <div class="col s4">
+                                <img class="circle" src="pic/tobi.jpg" width="50px" height="50px" />
+                                <h5>Tobi</h5>
+                                <p>My name is Tobias. I'm 17 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
                             </div>
-                            <div class="bennet">
-                                <img class="bennetpic" src="pic/bennet.png" width="100px" height="100px" />
-                                <h1 class="h1">Bennet</h1>
-                                <p class="bennettext">My name is Bennet. I'm 17 years old and I live in Germany. I'm a front- and back-end developer since 2015. Tobias and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
+                            <div class="col s4">
+                                <img class="circle" src="pic/bennet.png" width="50px" height="50px" />
+                                <h5>Bennet</h5>
+                                <p>My name is Bennet. I'm 17 years old and I live in Germany. I'm a front- and back-end developer since 2015. Tobias and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
                             </div>
-                            <div class="moritz">
-                                <img class="moritzpic" src="logo.png" width="100px" height="100px" />
-                                <h1 class="h1">Moritz</h1>
-                                <p class="moritztext">My name is Moritz. I'm 18 years old and I live in Germany. I'm not a developer and organize our community and finances. </p>
+                            <div class="col s4">
+                                <img class="circle" src="logo.png" width="50px" height="50px" />
+                                <h5>Moritz</h5>
+                                <p>My name is Moritz. I'm 18 years old and I live in Germany. I'm not a developer and organize our community and finances. </p>
                             </div>
                         </div>
                     </div>
+                  </div>
+                </div> -->
                     <hr class="break">
                     <div style="clear: both;"></div>
                     <div class="middle">
@@ -177,6 +193,8 @@ if (!(file_exists("up.txt"))) {
                     </div>
                 </div>
             </div>
+          </main>
+          <footer>
             <div class="footer">
                 <div class="git">
                     <p><a href="https://github.com/IntranetProject">GitHub</a></p>
@@ -188,6 +206,7 @@ if (!(file_exists("up.txt"))) {
                     <p><b><i style="color: black;">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a href="https://github.com/IntranetProject">Intranet</a></p>
                 </div>
             </div>
+          </footer>
         </div>
         <script>
             $.get("https://api.github.com/repos/IntranetProject/intranet_frontend/commits", function(data, status) {
