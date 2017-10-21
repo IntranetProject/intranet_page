@@ -78,32 +78,6 @@ if (!(file_exists("up.txt"))) {
               </div>
             </div>
           </div>
-                    <!-- <div class="row">
-                      <div class="col s12">
-                    <div id="team" class="card teal lighten-2">
-                        <div class="card-content white-text">
-                            <span class="card-title">Team</span>
-                            <div class="col s4">
-                                <img class="circle" src="pic/tobi.jpg" width="50px" height="50px" />
-                                <h5>Tobi</h5>
-                                <p>My name is Tobias. I'm 17 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
-                            </div>
-                            <div class="col s4">
-                                <img class="circle" src="pic/bennet.png" width="50px" height="50px" />
-                                <h5>Bennet</h5>
-                                <p>My name is Bennet. I'm 17 years old and I live in Germany. I'm a front- and back-end developer since 2015. Tobias and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
-                            </div>
-                            <div class="col s4">
-                                <img class="circle" src="logo.png" width="50px" height="50px" />
-                                <h5>Moritz</h5>
-                                <p>My name is Moritz. I'm 18 years old and I live in Germany. I'm not a developer and organize our community and finances. </p>
-                            </div>
-                        </div>
-                    </div>
-                  </div>
-                </div> -->
-                    <hr class="break">
-                    <div style="clear: both;"></div>
                     <div class="middle">
                         <div class="feed">
                             <h1>Update Feed</h1><br><br>
@@ -159,7 +133,7 @@ if (!(file_exists("up.txt"))) {
                             </div>
                         </div>
                     </div>
-                    <div class="links">
+                    <!-- <div class="links">
                         <h1>Links</h1>
                         <div class="linkbuttons">
                             <div class="linkbutton button1">
@@ -182,30 +156,49 @@ if (!(file_exists("up.txt"))) {
                             </div>
                         </div>
                         <hr>
-                    </div>
-                    <div style="clear: both;"></div>
-                    <div class="contact" id="contact">
-                        <div class="innercontact">
-                            <h1>Questions?</h1>
-                            <h1>Contact:</h1>
-                            <p><a style="font-size: 1.3em;" href="mailto:support@intranetproject.net">support@intranetproject.net</a></p>
+                    </div> -->
+                    <div class="row">
+                      <div class="col s10 offset-s1">
+                        <div class="card teal lighten-1">
+                          <div class="card-content white-text">
+                            <span class="card-title">Links</span>
+                            <p>These links will redirect you to the respective page.</p>
+                          </div>
+                          <div class="card-action">
+                            <a href="http://blog.intranetproject.net">Blog</a>
+                            <a href="http://docs.intranetproject.net">Documentation</a>
+                            <a href="http://status.intranetproject.net">Status</a>
+                          </div>
                         </div>
+                      </div>
                     </div>
                 </div>
             </div>
           </main>
-          <footer>
-            <div class="footer">
-                <div class="git">
-                    <p><a href="https://github.com/IntranetProject">GitHub</a></p>
+          <footer class="page-footer teal lighten-2">
+             <div class="container">
+                <div class="row">
+                   <div class="col l6 s12">
+                      <h5 class="white-text">Questions?</h5>
+                      <p class="grey-text text-lighten-4">Contact: <a href="mailto:support@intranetproject.net" style="color:white; text-decoration:underline;">support@intranetproject.net</a></p>
+                   </div>
+                   <div class="col l4 offset-l2 s12">
+                      <h5 class="white-text">Links</h5>
+                      <ul>
+                         <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProjec">GitHub</a></li>
+                         <li><a class="grey-text text-lighten-3" href="imprint.html">Imprint</a></li>
+                         <li>
+                            <p class="grey-text text-lighten-3" href="#!">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
+                         </li>
+                      </ul>
+                   </div>
                 </div>
-                <div class="imp">
-                    <p><a href="imprint.html">Impressum</a></p>
+             </div>
+             <div class="footer-copyright">
+                <div class="container">
+                   © 2017 Intranet Project
                 </div>
-                <div class="credit">
-                    <p><b><i style="color: black;">&lt; &gt;</i></b> with <i style="color: red;">&hearts;</i> by <a href="https://github.com/IntranetProject">Intranet</a></p>
-                </div>
-            </div>
+             </div>
           </footer>
         </div>
         <script>
