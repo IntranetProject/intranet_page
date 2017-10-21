@@ -17,7 +17,7 @@ if (!(file_exists("up.txt"))) {
     <body>
         <div class="container z-depth-5 teal lighten-2">
           <header>
-              <nav>
+              <nav class="teal">
                 <div>
                   <img src="logo.png" width="70px" height="70px" class="left brand-logo">
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -41,7 +41,7 @@ if (!(file_exists("up.txt"))) {
                     <div id="info" class="card teal lighten-1">
                       <div class="card-content white-text">
                         <span class="card-title">What is Intranet?</span><br><br>
-                        <p><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need tso start your own SmartHome. We hope that a community will come together and program more modules!</p>
+                        <p class="explanation"><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need tso start your own SmartHome. We hope that a community will come together and program more modules!</p>
                     </div>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ if (!(file_exists("up.txt"))) {
                         <li class="tab"><a class="white-text" href="#test6">Moritz</a></li>
                       </ul>
                     </div>
-                    <div class="card-content teal lighten-1">
+                    <div class="card-content teal lighten-1 team">
                       <div id="test4"><img class="circle" src="pic/tobi.jpg" width="50px" height="50px" />
                         <h5>Tobi</h5>
                         <p>My name is Tobias. I'm 17 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
@@ -79,7 +79,7 @@ if (!(file_exists("up.txt"))) {
               </div>
             </div>
             <div class="row">
-              <div class="col s6">
+              <div class="col s5 offset-s1">
                 <div class="card teal lighten-1 white-text">
                   <div class="card-image">
                     <a target="_blank" href="pic/login.png"><img src="pic/login.png"></a>
@@ -90,7 +90,7 @@ if (!(file_exists("up.txt"))) {
                   </div>
                 </div>
               </div>
-              <div class="col s6">
+              <div class="col s5">
                 <div class="card teal lighten-1 white-text">
                   <div class="card-image">
                     <a target="_blank" href="pic/settings.png"><img src="pic/settings.png"></a>
@@ -102,11 +102,6 @@ if (!(file_exists("up.txt"))) {
                 </div>
               </div>
             </div>
-
-
-
-
-
             <div class="row">
             <div class="col s12 m10 offset-m1">
               <div class="card-panel teal lighten-1 z-depth-1 commits white-text">
@@ -114,44 +109,34 @@ if (!(file_exists("up.txt"))) {
                 </div>
               </div>
             </div>
-
-                    <div id="download" class="download">
-                        <h1>Download</h1>
-                        <div class="download-text">
-                            <p>Here you can download the newest software versions:</p><br>
-                            <small>Important:<br>We do not promise that the Beta builds are bug free!<br><br>Be sure that these versions might not work and could result in Data loss!</small>
-                        </div>
-                        <div class="buttons">
-                            <div class="button1">
-                              <a href="http://download.intranetproject.net">
-                                <button>
-                                    <p>Downloads<br>
-                                        <small>This will redirect you to the download page.</small></p>
-                                </button>
-                              </a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <hr>
-                    <div id="shop" class="shop">
-                        <h1>Shop</h1>
-                        <div class="shop-text">
-                            <p>Here you can browse and buy the newest hardware modules:</p><br>
-                            <!--<small>Important: <br>We do not promisse that the Beta builds are bug free! <br>Be sure that these versions might not work and could result in Data loss!</small>-->
-                        </div>
-                        <div class="buttons">
-                            <div class="button1">
-                              <a href="http://shop.intranetproject.net">
-                                <button>
-                                    <p>Shop<br>
-                                        <small>This will redirect you to the shop page.</small></p>
-                                </button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
+            <div class="row" id="download">
+              <div class="col s10 offset-s1">
+                <div class="card teal lighten-1">
+                  <div class="card-content white-text">
+                    <span class="card-title">Download</span>
+                    <p>You can download the newest software versions via the link below.<br><br>
+                    <b>Important:</b><br>We do not promise that the Beta builds are bug free!<br>Be sure that these versions might not work and could result in Data loss!</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="http://download.intranetproject.net">Download</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="shop">
+              <div class="col s10 offset-s1">
+                <div class="card teal lighten-1">
+                  <div class="card-content white-text">
+                    <span class="card-title">Shop</span>
+                    <p>Here you can browse and buy the newest hardware modules!</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="http://shop.intranetproject.net">Shop</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
                       <div class="col s10 offset-s1">
                         <div class="card teal lighten-1">
                           <div class="card-content white-text">
