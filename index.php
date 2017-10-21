@@ -48,55 +48,73 @@ if (!(file_exists("up.txt"))) {
               </div>
               <div class="row">
                 <div class="col s10 offset-s1">
-              <div class="card teal lighten-1 white-text z-depth-1">
-                <div class="card-content">
-                  <span class="card-title">Team</span>
-                </div>
-                <div class="card-tabs">
-                  <ul class="tabs tabs-fixed-width teal lighten-1 ">
-                    <li class="tab"><a class="active white-text" href="#test4">Tobi</a></li>
-                    <li class="tab"><a class="white-text" href="#test5">Bennet</a></li>
-                    <li class="tab"><a class="white-text" href="#test6">Moritz</a></li>
-                  </ul>
-                </div>
-                <div class="card-content teal lighten-1">
-                  <div id="test4"><img class="circle" src="pic/tobi.jpg" width="50px" height="50px" />
-                    <h5>Tobi</h5>
-                    <p>My name is Tobias. I'm 17 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
+                  <div class="card teal lighten-1 white-text z-depth-1">
+                    <div class="card-content">
+                      <span class="card-title">Team</span>
+                    </div>
+                    <div class="card-tabs">
+                      <ul class="tabs tabs-fixed-width teal lighten-1 ">
+                        <li class="tab"><a class="active white-text" href="#test4">Tobi</a></li>
+                        <li class="tab"><a class="white-text" href="#test5">Bennet</a></li>
+                        <li class="tab"><a class="white-text" href="#test6">Moritz</a></li>
+                      </ul>
+                    </div>
+                    <div class="card-content teal lighten-1">
+                      <div id="test4"><img class="circle" src="pic/tobi.jpg" width="50px" height="50px" />
+                        <h5>Tobi</h5>
+                        <p>My name is Tobias. I'm 17 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
+                    </div>
+                    <div id="test5">
+                      <img class="circle" src="pic/bennet.png" width="50px" height="50px" />
+                      <h5>Bennet</h5>
+                      <p>My name is Bennet. I'm 17 years old and I live in Germany. I'm a front- and back-end developer since 2015. Tobias and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
+                    </div>
+                    <div id="test6">
+                      <img class="circle" src="logo.png" width="50px" height="50px" />
+                      <h5>Moritz</h5>
+                      <p>My name is Moritz. I'm 18 years old and I live in Germany. I'm not a developer and organize our community and finances. </p>
+                    </div>
                   </div>
-                  <div id="test5">
-                    <img class="circle" src="pic/bennet.png" width="50px" height="50px" />
-                    <h5>Bennet</h5>
-                    <p>My name is Bennet. I'm 17 years old and I live in Germany. I'm a front- and back-end developer since 2015. Tobias and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
-                  </div>
-                  <div id="test6">
-                    <img class="circle" src="logo.png" width="50px" height="50px" />
-                    <h5>Moritz</h5>
-                    <p>My name is Moritz. I'm 18 years old and I live in Germany. I'm not a developer and organize our community and finances. </p>
-                </div>
                 </div>
               </div>
             </div>
-          </div>
-                    <div class="middle">
-                        <div class="feed">
-                            <h1>Update Feed</h1><br><br>
-                            <hr class="feedhr">
-                            <div class="commits">
-                                <!-- shit's gonna get added here -->
-                            </div>
-                            <hr class="botttom">
-                        </div>
-                        <div class="pic">
-                            <h1 style="padding: 20px;">Images</h1>
-                            <div class="topleft">
-                                <a target="_blank" href="pic/login.png"><img id="img1" src="pic/login.png" /></a>
-                            </div>
-                            <div class="bottomleft">
-                                <a target="_blank" href="pic/settings.png"><img src="pic/settings.png" /></a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+              <div class="col s6">
+                <div class="card teal lighten-1 white-text">
+                  <div class="card-image">
+                    <a target="_blank" href="pic/login.png"><img src="pic/login.png"></a>
+                    <span class="card-title">Login</span>
+                  </div>
+                  <div class="card-content">
+                    <p>This is a picture of the login screen on the Intranet</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col s6">
+                <div class="card teal lighten-1 white-text">
+                  <div class="card-image">
+                    <a target="_blank" href="pic/settings.png"><img src="pic/settings.png"></a>
+                    <span class="card-title">Settings</span>
+                  </div>
+                  <div class="card-content">
+                    <p>This is a picture of the settings page. Here you can configure your personal settings e.g. user accounts.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="row">
+            <div class="col s12 m10 offset-m1">
+              <div class="card-panel teal lighten-1 z-depth-1 commits white-text">
+                  <!-- shit's gonna get added here -->
+                </div>
+              </div>
+            </div>
+
                     <div id="download" class="download">
                         <h1>Download</h1>
                         <div class="download-text">
@@ -133,30 +151,6 @@ if (!(file_exists("up.txt"))) {
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="links">
-                        <h1>Links</h1>
-                        <div class="linkbuttons">
-                            <div class="linkbutton button1">
-                                <button>
-                                    <a href="http://blog.intranetproject.net">Blog<br>
-                                        <small>This will redirect you to the blog page.</small></a>
-                                </button>
-                            </div>
-                            <div class="linkbutton button1">
-                                <button>
-                                    <a href="http://docs.intranetproject.net">Documentation<br>
-                                        <small>This will redirect you to the docs page.</small></a>
-                                </button>
-                            </div>
-                            <div class="linkbutton button1">
-                                <button>
-                                    <a href="http://status.intranetproject.net">Status<br>
-                                        <small>This will redirect you to the status page.</small></a>
-                                </button>
-                            </div>
-                        </div>
-                        <hr>
-                    </div> -->
                     <div class="row">
                       <div class="col s10 offset-s1">
                         <div class="card teal lighten-1">
@@ -173,7 +167,6 @@ if (!(file_exists("up.txt"))) {
                       </div>
                     </div>
                 </div>
-            </div>
           </main>
           <footer class="page-footer teal lighten-2">
              <div class="container">
@@ -213,7 +206,7 @@ if (!(file_exists("up.txt"))) {
                             var version = obj.commit.message.split(";");
                             $(".version_num").html(version[0]);
                         }
-                        $(".commits").append('<div class="commit"> <div class="image"> <img class="commit-image imagecommitid-' + idx + '" src=""> </div><div class="content"> <p class="commit-name commitnameid-' + idx + '"></p><p class="commit-details"><a target="_blank" class="commit-details-link commitdetailsid-' + idx + '" href="">Details</a></p><div class="message"> <p>Update Text:</p><br><p class="commit-message commitmessageid-' + idx + '"></p></div></div></div>');
+                        $(".commits").append('<div class="row valign-wrapper"><div class="col s2"><img class="circle responsive-img imagecommitid-' + idx + '" src=""> </div> <div class="col s10"> <span class="card-title commitnameid-' + idx + '"> </p> <p class="white-text"> <a target="_blank" style="text-decoration:underline;" class="white-text commitdetailsid-' + idx + '" href="">Details</a> <br> Update Text: <br><p class="commitmessageid-' + idx + '"></p> </p> </div> </div>');
                         $(".imagecommitid-" + idx + "").attr('src', obj.author.avatar_url);
                         $(".commitnameid-" + idx).append(obj.commit.author.name);
                         $(".commitdetailsid-" + idx).attr('href', obj.html_url);
