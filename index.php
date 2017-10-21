@@ -18,9 +18,16 @@ if (!(file_exists("up.txt"))) {
         <div class="container z-depth-5 teal lighten-2">
           <header>
               <nav class="teal">
-                <div>
-                  <img src="logo.png" width="70px" height="70px" class="left brand-logo">
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <div class="nav-wrapper">
+                  <img src="logo.png" width="70px" height="70px" class="brand-logo">
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                      <li><a href="http://status.intranetproject.net">Status</a></li>
+                      <li><a href="http://docs.intranetproject.net">Documentation</a></li>
+                      <li><a href="http://blog.intranetproject.net">Blog</a></li>
+                      <li><a href="#download">Download & Shop</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
                       <li><a href="http://status.intranetproject.net">Status</a></li>
                       <li><a href="http://docs.intranetproject.net">Documentation</a></li>
                       <li><a href="http://blog.intranetproject.net">Blog</a></li>
@@ -200,7 +207,9 @@ if (!(file_exists("up.txt"))) {
                     }
                 });
             });
-
+            $( document ).ready(function(){
+              $(".button-collapse").sideNav();
+            })
         </script>
     </body>
 
