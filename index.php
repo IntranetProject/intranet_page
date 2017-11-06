@@ -196,7 +196,6 @@ if (!(file_exists("up.txt"))) {
       </div>
     </div>
   </footer>
-  </div>
   <script>
     $.get("https://api.github.com/repos/IntranetProject/intranet_frontend/commits", function(data, status) {
       var i = 0;
