@@ -14,6 +14,20 @@ if (!(file_exists("up.txt"))) {
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <title>Intranetproject.net</title>
+  <meta name="title" content="intranetproject">
+  <meta name="author" content="intranetproject">
+  <meta name="publisher" content="intranetproject">
+  <meta name="copyright" content="intranetproject">
+  <meta name="generator" content="intranetproject">
+  <meta name="description" content='Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that does not contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop.   Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.'>
+  <meta name="abstract" content='Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that does not contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop.   Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.'>
+  <meta http-equiv="content-language" content="en">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="date" content="2017-11-08">
+  <meta name="revisit-after" content="30 days">
+  <meta name="revisit" content="after 30 days">
+  <meta name="DC.Language" content="en">
+
 </head>
 
 <body>
