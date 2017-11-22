@@ -64,7 +64,7 @@ if (!(file_exists("up.txt"))) {
                         <div id="info" class="card teal lighten-1">
                             <div class="card-content white-text">
                                 <span class="card-title">What is Intranet?</span><br><br>
-                                <p class="explanation"><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need tso start your own SmartHome. We hope that a community will come together and program more modules!</p>
+                                <p class="explanation"><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need to start your own SmartHome. We hope that a community will come together and program more modules!</p>
                             </div>
                         </div>
                     </div>
@@ -173,8 +173,8 @@ if (!(file_exists("up.txt"))) {
                         </div>
                     </div>
                 </div>
+            </main>
         </div>
-        </main>
         <footer class="page-footer teal lighten-2">
             <div class="container">
                 <div class="row">
@@ -188,8 +188,8 @@ if (!(file_exists("up.txt"))) {
                             <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProjec">GitHub</a></li>
                             <li><a class="grey-text text-lighten-3" href="imprint.html">Imprint</a></li>
                             <li>
-                                <p class="grey-text text-lighten-3" href="#!">&lt; &gt;</i>
-                                    </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
+                                <p class="grey-text text-lighten-3" href="#!"><b><i class="material-icons">code</i>
+                </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">Intranet</a></p>
                             </li>
                         </ul>
                     </div>
