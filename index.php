@@ -37,11 +37,12 @@ if (!(file_exists("up.txt"))) {
                     <div class="nav-wrapper">
                         <img src="logo.png" width="70px" height="70px" class="brand-logo">
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
+                        <ul class="right hide-on-med-and-down navbar">
                             <li><a href="http://status.intranetproject.net">Status</a></li>
                             <li><a href="http://docs.intranetproject.net">Documentation</a></li>
                             <li><a href="http://blog.intranetproject.net">Blog</a></li>
                             <li><a href="#download">Download & Shop</a></li>
+                            <li><a href="https://discord.gg/HQ7yZzA" class="img"><img src="pic/discord.png"></a></li>
                         </ul>
                         <ul class="side-nav" id="mobile-demo">
                             <li><a href="http://status.intranetproject.net">Status</a></li>
