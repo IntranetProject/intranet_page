@@ -174,16 +174,6 @@ if (!(file_exists("up.txt"))) {
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col s10 offset-s1">
-                        <div class="card teal lighten-1">
-                            <div class="card-content white-text">
-                                <span class="card-title">Discord</span>
-                                <p>You can join our Discord by clicking on the picture below. There we will post updates and answer user questions.<br><a style="width:100%;" href="https://discord.gg/HQ7yZzA" target="_blank"><img src="pic/discord.png"></a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </main>
         </div>
         <footer class="page-footer teal lighten-2">
