@@ -27,11 +27,11 @@ if (!(file_exists("up.txt"))) {
         <meta name="revisit-after" content="30 days">
         <meta name="revisit" content="after 30 days">
         <meta name="DC.Language" content="en">
-
+        <script src="css/snow.js"></script>
     </head>
 
     <body>
-        <div class="container z-depth-5 teal lighten-2">
+        <div class="container z-depth-5 teal lighten-2" id="snow">
             <header>
                 <nav class="teal">
                     <div class="nav-wrapper">
@@ -226,6 +226,14 @@ if (!(file_exists("up.txt"))) {
             $(document).ready(function() {
                 $(".button-collapse").sideNav();
             })
+
+        </script>
+        <script>
+            $(document).ready(function() {
+                var preloader = 100;
+                $(".container").delay(preloader).fadeIn(400);
+                $.fn.snow();
+            });
 
         </script>
     </body>
