@@ -35,6 +35,7 @@ nav {
 .img img {
     max-height: 100%;
 }
+
 .navbar li a {
     height: 100% !important;
 }

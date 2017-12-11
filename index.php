@@ -27,11 +27,11 @@ if (!(file_exists("up.txt"))) {
         <meta name="revisit-after" content="30 days">
         <meta name="revisit" content="after 30 days">
         <meta name="DC.Language" content="en">
-
+        <script src="css/snow.js"></script>
     </head>
 
     <body>
-        <div class="container z-depth-5 teal lighten-2">
+        <div class="container z-depth-5 teal lighten-2" id="snow">
             <header>
                 <nav class="teal">
                     <div class="nav-wrapper">
@@ -97,7 +97,7 @@ if (!(file_exists("up.txt"))) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s5 offset-s1">
+                    <div class="col s10 offset-s1 m5">
                         <div class="card teal lighten-1 white-text">
                             <div class="card-image">
                                 <a target="_blank" href="pic/login.png"><img src="pic/login.png"></a>
@@ -108,7 +108,7 @@ if (!(file_exists("up.txt"))) {
                             </div>
                         </div>
                     </div>
-                    <div class="col s5">
+                    <div class="col s10 offset-s1 m5">
                         <div class="card teal lighten-1 white-text">
                             <div class="card-image">
                                 <a target="_blank" href="pic/settings.png"><img src="pic/settings.png"></a>
@@ -226,6 +226,12 @@ if (!(file_exists("up.txt"))) {
             $(document).ready(function() {
                 $(".button-collapse").sideNav();
             })
+
+        </script>
+        <script>
+            $(document).ready(function() {
+                $.fn.snow();
+            });
 
         </script>
     </body>
