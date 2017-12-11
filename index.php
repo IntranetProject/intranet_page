@@ -97,7 +97,7 @@ if (!(file_exists("up.txt"))) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s5 offset-s1">
+                    <div class="col s10 offset-s1 m5">
                         <div class="card teal lighten-1 white-text">
                             <div class="card-image">
                                 <a target="_blank" href="pic/login.png"><img src="pic/login.png"></a>
@@ -108,7 +108,7 @@ if (!(file_exists("up.txt"))) {
                             </div>
                         </div>
                     </div>
-                    <div class="col s5">
+                    <div class="col s10 offset-s1 m5">
                         <div class="card teal lighten-1 white-text">
                             <div class="card-image">
                                 <a target="_blank" href="pic/settings.png"><img src="pic/settings.png"></a>
