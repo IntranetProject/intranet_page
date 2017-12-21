@@ -97,7 +97,7 @@ if (!(file_exists("up.txt"))) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s10 offset-s1 m5">
+                    <div class="col s10 offset-s1 m5 offset-m1">
                         <div class="card teal lighten-1 white-text">
                             <div class="card-image">
                                 <a target="_blank" href="pic/login.png"><img src="pic/login.png"></a>
@@ -121,7 +121,7 @@ if (!(file_exists("up.txt"))) {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s12 m10 offset-m1">
+                    <div class="col s10 offset-s1 m10 offset-m1">
                         <div class="card-panel teal lighten-1 z-depth-1 commits white-text">
                             <!-- shit's gonna get added here -->
                             <div class="row">
@@ -214,7 +214,7 @@ if (!(file_exists("up.txt"))) {
                             var version = obj.commit.message.split(";");
                             $(".version_num").html(version[0]);
                         }
-                        $(".commits").append('<div class="row valign-wrapper"><div class="col s2"><img class="circle responsive-img imagecommitid-' + idx + '" src=""> </div> <div class="col s10"> <span class="card-title commitnameid-' + idx + '"> </span> <p class="white-text"> <a target="_blank" style="text-decoration:underline;" class="white-text commitdetailsid-' + idx + '" href="">Details</a> <br> Update Text: <br><p class="commitmessageid-' + idx + '"></p> </p> </div> </div>');
+                        $(".commits").append('<div class="row valign-wrapper"><div class="col s2"><img class="circle responsive-img imagecommitid-' + idx + '" src=""> </div> <div class="col s10"> <span class="card-title commitnameid-' + idx + '"> </span> <p class="white-text"> <a target="_blank" style="text-decoration:underline;" class="white-text commitdetailsid-' + idx + '" href="">Details</a> <br> Update Text: <p class="commitmessageid-' + idx + '"></p> </p> </div> </div>');
                         $(".imagecommitid-" + idx + "").attr('src', obj.author.avatar_url);
                         $(".commitnameid-" + idx).append(obj.commit.author.name);
                         $(".commitdetailsid-" + idx).attr('href', obj.html_url);
