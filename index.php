@@ -42,7 +42,7 @@ if (!(file_exists("up.txt"))) {
                             <li><a href="http://docs.intranetproject.net">Documentation</a></li>
                             <li><a href="http://blog.intranetproject.net">Blog</a></li>
                             <li><a href="#download">Download & Shop</a></li>
-                            <li><a href="https://discord.gg/HQ7yZzA" class="img"><img src="pic/discord.png"></a></li>
+                            <li><a href="https://discord.gg/XccJpC4" class="img"><img src="pic/discord.png"></a></li>
                         </ul>
                         <ul class="side-nav" id="mobile-demo">
                             <li><a href="http://status.intranetproject.net">Status</a></li>
