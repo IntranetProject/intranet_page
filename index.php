@@ -28,6 +28,14 @@ if (!(file_exists("up.txt"))) {
         <meta name="revisit" content="after 30 days">
         <meta name="DC.Language" content="en">
         <script src="css/snow.js"></script>
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "url": "http://www.intranetproject.net",
+            "logo": "http://www.intranetproject.net/logo.png"
+        }
+        </script>
     </head>
 
     <body>
