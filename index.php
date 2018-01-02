@@ -2,8 +2,11 @@
 if (!(file_exists("up.txt"))) {
     header("Location: http://maintenance.intranetproject.net?site=Mainsite");
 }
-?>
-
+?><!--
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.intranetproject.net/$1 [R,L]
+ -->
     <html>
 
     <head>
@@ -27,7 +30,6 @@ if (!(file_exists("up.txt"))) {
         <meta name="revisit-after" content="30 days">
         <meta name="revisit" content="after 30 days">
         <meta name="DC.Language" content="en">
-        <script src="css/snow.js"></script>
         <script type="application/ld+json">
         {
             "@context": "http://schema.org",
@@ -39,9 +41,9 @@ if (!(file_exists("up.txt"))) {
     </head>
 
     <body>
-        <div class="container z-depth-5 teal lighten-2" id="snow">
+        <div class="container z-depth-5 blue  " id="snow">
             <header>
-                <nav class="teal">
+                <nav class="blue darken-2">
                     <div class="nav-wrapper">
                         <img src="logo.png" width="70px" height="70px" class="brand-logo">
                         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -70,7 +72,7 @@ if (!(file_exists("up.txt"))) {
                 </div>
                 <div class="row">
                     <div class="col s10 offset-s1">
-                        <div id="info" class="card teal lighten-1">
+                        <div id="info" class="card blue darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">What is Intranet?</span><br><br>
                                 <p class="explanation"><a href="https://en.wikipedia.org/wiki/Home_automation">SmartHomes</a> are winning more and more popularity in the last couple of years. However these systems are expensive and not controllable. To have everything in one application is a lot nicer. At this point our Intranet comes to play. Our Intranet is OpenSource, module based software-system, meaning you can configure everything as you like. There is the classic setup, that doesn't contain a lot of features. Modules are the interesting part. Modules are easy to install and expand your existing system. There are software modules, like a TODO-List or calendar, but also hardware with software components, like temperature modules or remotely controllable power plugs. These have hardware components, which can be purchased in our shop. <br><br> Our Goal is to create a perfect system with what you and your family can perfectly organize yourselves. We want to give everyone the opportunity to "build" their very own SmartHome.<br><br> For Hobbyists we transfer all data for the hardware (mostly circuit boards and other components) OpenSource to <a href="https://github.com/IntranetProject">GitHub</a>. With the data you can build the modules yourself. We offer all tools you need to start your own SmartHome. We hope that a community will come together and program more modules!</p>
@@ -80,17 +82,17 @@ if (!(file_exists("up.txt"))) {
                 </div>
                 <div class="row">
                     <div class="col s10 offset-s1">
-                        <div class="card teal lighten-1 white-text z-depth-1">
+                        <div class="card blue darken-1 white-text z-depth-1">
                             <div class="card-content">
                                 <span class="card-title">Team</span>
                             </div>
                             <div class="card-tabs">
-                                <ul class="tabs tabs-fixed-width teal lighten-1 ">
+                                <ul class="tabs tabs-fixed-width blue darken-1 ">
                                     <li class="tab"><a class="active white-text" href="#test4">Tobi</a></li>
                                     <li class="tab"><a class="white-text" href="#test5">Bennet</a></li>
                                 </ul>
                             </div>
-                            <div class="card-content teal lighten-1 team">
+                            <div class="card-content blue darken-1 team">
                                 <div id="test4"><img class="circle" src="pic/tobi.jpg" width="50px" height="50px" />
                                     <h5>Tobi</h5>
                                     <p>My name is Tobias. I'm 17 years old and I live in Germany. I'm a front-end developer since 2016. Bennet and I have worked together on our own organization <a href="https://github.com/BaFrInds">BaFrInds</a> and many other projects.</p>
@@ -106,7 +108,7 @@ if (!(file_exists("up.txt"))) {
                 </div>
                 <div class="row">
                     <div class="col s10 offset-s1 m5 offset-m1">
-                        <div class="card teal lighten-1 white-text">
+                        <div class="card blue darken-1 white-text">
                             <div class="card-image">
                                 <a target="_blank" href="pic/login.png"><img src="pic/login.png"></a>
                                 <span class="card-title">Login</span>
@@ -117,7 +119,7 @@ if (!(file_exists("up.txt"))) {
                         </div>
                     </div>
                     <div class="col s10 offset-s1 m5">
-                        <div class="card teal lighten-1 white-text">
+                        <div class="card blue darken-1 white-text">
                             <div class="card-image">
                                 <a target="_blank" href="pic/settings.png"><img src="pic/settings.png"></a>
                                 <span class="card-title">Settings</span>
@@ -130,7 +132,7 @@ if (!(file_exists("up.txt"))) {
                 </div>
                 <div class="row">
                     <div class="col s10 offset-s1 m10 offset-m1">
-                        <div class="card-panel teal lighten-1 z-depth-1 commits white-text">
+                        <div class="card-panel blue darken-1 z-depth-1 commits white-text">
                             <!-- shit's gonna get added here -->
                             <div class="row">
                                 <div class="col s12">
@@ -142,7 +144,7 @@ if (!(file_exists("up.txt"))) {
                 </div>
                 <div class="row" id="download">
                     <div class="col s10 offset-s1">
-                        <div class="card teal lighten-1">
+                        <div class="card blue darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">Download</span>
                                 <p>You can download the newest software versions via the link below.<br><br>
@@ -156,7 +158,7 @@ if (!(file_exists("up.txt"))) {
                 </div>
                 <div class="row" id="shop">
                     <div class="col s10 offset-s1">
-                        <div class="card teal lighten-1">
+                        <div class="card blue darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">Shop</span>
                                 <p>Here you can browse and buy the newest hardware modules!</p>
@@ -169,7 +171,7 @@ if (!(file_exists("up.txt"))) {
                 </div>
                 <div class="row">
                     <div class="col s10 offset-s1">
-                        <div class="card teal lighten-1">
+                        <div class="card blue darken-1">
                             <div class="card-content white-text">
                                 <span class="card-title">Links</span>
                                 <p>These links will redirect you to the respective page.</p>
@@ -184,7 +186,7 @@ if (!(file_exists("up.txt"))) {
                 </div>
             </main>
         </div>
-        <footer class="page-footer teal lighten-2">
+        <footer class="page-footer blue  ">
             <div class="container">
                 <div class="row">
                     <div class="col l6 s12">
@@ -234,12 +236,6 @@ if (!(file_exists("up.txt"))) {
             $(document).ready(function() {
                 $(".button-collapse").sideNav();
             })
-
-        </script>
-        <script>
-            $(document).ready(function() {
-                $.fn.snow();
-            });
 
         </script>
     </body>
