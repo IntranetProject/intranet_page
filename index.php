@@ -224,7 +224,18 @@ RewriteRule ^(.*)$ https://www.intranetproject.net/$1 [R,L]
                             var version = obj.commit.message.split(";");
                             $(".version_num").html(version[0]);
                         }
-                        $(".commits").append('<div class="row valign-wrapper"><div class="col s2"><img class="circle responsive-img imagecommitid-' + idx + '" src=""> </div> <div class="col s10"> <span class="card-title commitnameid-' + idx + '"> </span> <p class="white-text"> <a target="_blank" style="text-decoration:underline;" class="white-text commitdetailsid-' + idx + '" href="">Details</a> <br> Update Text: <p class="commitmessageid-' + idx + '"></p> </p> </div> </div>');
+                        $(".commits").append(
+                            '<div class="row valign-wrapper"><div class="col s2">
+                                <img class="circle responsive-img imagecommitid-' + idx + '" src="">
+                            </div>
+                            <div class="col s10">
+                                <span class="card-title commitnameid-' + idx + '"> </span>
+                                <p class="white-text">
+                                    <a target="_blank" style="text-decoration:underline;" class="white-text commitdetailsid-' + idx + '" href="">Details </a> <br>
+                                    Update Text: <p class="commitmessageid-' + idx + '"></p>
+                                </p>
+                            </div>
+                        </div>');
                         $(".imagecommitid-" + idx + "").attr('src', obj.author.avatar_url);
                         $(".commitnameid-" + idx).append(obj.commit.author.name);
                         $(".commitdetailsid-" + idx).attr('href', obj.html_url);
