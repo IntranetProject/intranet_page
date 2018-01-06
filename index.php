@@ -38,6 +38,12 @@ RewriteRule ^(.*)$ https://www.intranetproject.net/$1 [R,L]
             "logo": "http://www.intranetproject.net/logo.png"
         }
         </script>
+        <meta property="og:title" content="intranetproject.net" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://intranetproject.net/logo.png" />
+        <meta property="og:url" content="https://intranetproject.net" />
+        <meta property="og:description" content="Intranetproject's Main Website" />
+        <meta property="og:site_name" content="IntranetProject" />
     </head>
 
     <body>
