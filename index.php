@@ -242,7 +242,7 @@ if (!(file_exists("up.txt"))) {
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2017 Intranet Project
+            © <?php echo "2017-" . date('Y'); ?> Intranet Project
         </div>
     </div>
 </footer>
