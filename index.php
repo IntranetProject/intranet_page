@@ -228,7 +228,8 @@ if (!(file_exists("up.txt"))) {
             <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Links</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProjec">GitHub</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/Intranetprojec">Twitter</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/IntranetProject">GitHub</a></li>
                     <li><a class="grey-text text-lighten-3" href="imprint.html">Imprint</a></li>
                     <li>
                         <p class="grey-text text-lighten-3" href="#!"><b><i class="material-icons">code</i>
