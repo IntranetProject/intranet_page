@@ -234,7 +234,7 @@ if (!(file_exists("up.txt"))) {
                     <li>
                         <p class="grey-text text-lighten-3" href="#!"><b><i class="material-icons">code</i>
                             </b> with <i style="color: red;">&hearts;</i> by <a class="grey-text text-lighten-3"
-                                                                                href="https://github.com/IntranetProject">Intranet</a>
+                                                                                href="https://github.com/IntranetProject">Intranet</a> and help from <a class="grey-text text-lighten-3" href="http://materializecss.com/">Materialize</a>
                         </p>
                     </li>
                 </ul>
