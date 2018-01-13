@@ -210,7 +210,7 @@ if (!(file_exists("up.txt"))) {
                     </div>
                     <div class="card-action">
                         <a href="http://blog.intranetproject.net">Blog</a>
-                        <a href="http://docs.intranetproject.net">Documentation</a>
+                        <a href="http://docs.intranetproject.net">Docs</a>
                         <a href="http://status.intranetproject.net">Status</a>
                     </div>
                 </div>
