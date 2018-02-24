@@ -39,3 +39,18 @@ nav {
 .navbar li a {
     height: 100% !important;
 }
+
+@-moz-document url-prefix() {
+    .navbar {
+        width: calc(100%-70px);
+    }
+    .navbar div {
+        width: fit-content;
+    }
+    .navbar img {
+        height: 70px;
+    }
+    .navbar li {
+        display: block;
+    }
+}
